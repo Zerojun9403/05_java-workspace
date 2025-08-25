@@ -18,6 +18,6 @@ public class ConditionRun {
         * 자바에선 Class  형태가 기본이기 때문에 메서드 형태로 모든 기능 작성
         * */
 
-        ex.method3();
+        ex.method4();
     }
 }

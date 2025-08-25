@@ -92,22 +92,30 @@ public class ConditionEx {
         Scanner sc = new Scanner(System.in);
         System.out.println("월을 입력하세요  : ");
         int month = sc.nextInt();
-        String result;
+
         /*
         *
         * 입력값이 잘못 되었을 경우 메서드에서 기능을 중간에 종료
         *
         * */
-        if(month >=1 && month<=12){
-            result ="잘못입력하셨습니다.";
-            return;
+        /*
+         * 입력값이 잘못 되었을 경우 메서드 기능을 중간에 종료
+         * */
+        if(month < 1 || month > 12){
+            System.out.println("잘못 입력하였습니다.");
+            return; // 아래 기능 수행하지 못하게 돌려보내기
         }
 
-        if (month >= 3 && month <= 5
-        ){ result = "봄";}
-        else if (month >= 6 && month <= 8) {result = "여름";}
-        else if (month >= 9 && month <= 11){ result = "가을";}
-        else  {result = "겨울";}
+        String result;
+        if(month >= 3 && month <= 5){
+            result="봄";
+        } else if(month >=6 && month <= 8) {
+            result="여름";
+        } else if(month>= 9 &&month<= 11){
+            result="가을";
+        } else {     //if(month == 12 || month < 3){ // 0 -1 -2 음수
+            result="겨울";
+        }
 
         System.out.println(result);
 
