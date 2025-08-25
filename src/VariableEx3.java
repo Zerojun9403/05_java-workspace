@@ -22,7 +22,7 @@ public class VariableEx3 {
         // byte -128~127 0 포함
 
         byte result1 =(byte) num1; //강제 형변환
-        System.out.println("num1 : "+num1);
-        System.out.println("result1 : "+ result1);
+        System.out.println("num1 : "+num1); // 290
+        System.out.println("result1 : "+ result1); // 34
     }
 }
