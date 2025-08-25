@@ -1,3 +1,5 @@
+package edu.variable;
+
 public class PrintEx1 {
 
 

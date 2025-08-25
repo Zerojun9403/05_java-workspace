@@ -1,4 +1,5 @@
-import java.sql.SQLOutput;
+package edu.variable;
+
 import java.util.Scanner;
 
 public class ScannerEx1 {
