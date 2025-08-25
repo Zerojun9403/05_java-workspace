@@ -50,10 +50,10 @@ public class ScannerEx1 {
 
         //********************************
         //  - next() / -nextInt() / -nextDouble() 등을 작성한 이후에
-        // nxetLine()  을 작성해야 하는 상황이오면
-        // nxetLine()  을 미리 한번 작성하기
+        // nextLine()  을 작성해야 하는 상황이오면
+        // nextLine()  을 미리 한번 작성하기
 
-        sc.nextInt();
+        sc.nextLine();
 
         /*
         *
