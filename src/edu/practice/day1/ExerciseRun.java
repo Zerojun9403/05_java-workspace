@@ -4,7 +4,7 @@ import edu.op.ex.OperatorEx;
 
 public class ExerciseRun {
     public static void main(String[] args) {
-        Exercise1 exRun = new Exercise1();
+        Exercise5 exRun = new Exercise5();
 
 
         exRun.method1();
