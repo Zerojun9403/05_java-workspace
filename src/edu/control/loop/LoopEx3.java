@@ -151,7 +151,7 @@ public class LoopEx3 {
      * Math.random() *10 // 0.0<=값 <=10.0 0이외 1부터 모두 10까지 범위 증가
      * (int)Math.random() *10 // 0<=값 <=10 (정수 변환)
      * (int)(Math.random() * 10)+ 1  // 1<=값 <=10(정수 변환)
-     *
+     * <p>
      * 1~10 사이의 랸덤 숫자를 맞출떄 까지 반본3
      * Math.random() 활용 + 난수 -> 정수로 형 변환
      * 변수이름 : int answer input count
@@ -179,10 +179,78 @@ public class LoopEx3 {
             else if (input < answer)
                 System.out.println("작성한 숫자보다 정답은 큽습니다.");
             else
-                System.out.println("정답입니다!" +  answer + "시도횟수" + count);
+                System.out.println("정답입니다!" + answer + "시도횟수" + count);
 
 
         } while (input != answer); // 정답을 맞출 때까지 반복
     }
+
+    /**
+     * 사용자로 부터 숫자 하나를 입력 받아 그 수의 구구단을 1부터 9까지 출력
+     * 출력할 단 을 입력하세요 :
+     * for 문을 활용한 반복만 존재
+     * 1회 실행 후 종료
+     * mathod7()
+     *
+     */
+
+    public void method7() {
+        System.out.print("출력할 단을 입력하세요: ");
+        int dan = sc.nextInt();   // 사용자 입력
+
+        // for문을 이용해서 1부터 9까지 곱하기
+        for (int i = 1; i <= 9; i++) {
+            System.out.printf("%d x %d = %2d \n", dan, i, dan * i);
+        }
+
+    }
+
+    /**
+     * 비밀번호 : "java1234"
+     * 사용자가 올바른 비밀번호를 입력 할 떄 까지 입력 다음
+     * 입력 횟수가 5회를 초가하면 "접숙 차단합니다" 메세지를 출력하고 종료
+     * do-while 문 활용 while(true) 조건 입력횟수가 5회를 초과했을 경우 break 활용
+     * 시도횟수(0/5) 비밀번호를 입력하세요 :
+     *
+     * if(input.equals(cheeckPassword)){}
+     *
+     * 변수 이름 : String CheckPassword = "java1234"
+     * String input = "" // 비밀번호 입력하고 입력된 비밀번호 데ㅐ이터 저장하는 변수 이름
+     * int attempts = 0; // 시도횟수 데이터 저장하는 변수 이름
+     * mathod8()
+     */
+
+    public void method8() {
+        String checkPassword = "java1234"; // 올바른 비밀번호
+        String input = "";                 // 사용자 입력값
+        int attempts = 0;                  // 시도 횟수
+
+        do {
+            if (input.equals(checkPassword)) {
+                System.out.println("로그인 성공!");
+                break;
+            } else {
+                System.out.println("비밀번호가 올바르지 않습니다.");
+            }
+
+            if (attempts >= 5) {
+                System.out.println("접속 차단합니다.");
+                break;
+            }
+
+            System.out.printf("시도횟수(%d/5) 비밀번호를 입력하세요: ", attempts + 1);
+           input = sc.nextLine();
+            attempts++;
+
+        } while (true);
+
+
+    }
 }
+
+
+
+
+
+
 
