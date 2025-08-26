@@ -2,9 +2,7 @@ package edu.practice.day1;
 
 public class Exercise1 {
 
-    public  void Ex1(){
-
-
+    public  void method1(){
 
         /*
         *
@@ -23,7 +21,8 @@ public class Exercise1 {
         char gender = 'M';
         String hobby = "프로그래밍";
 
-        System.out.printf("이름 : %d , 나이 : %d , 키 : %d, 성별 : %d, 취미 : %d");
+        System.out.printf("이름 : %s, 나이 : %d, 키 : %.1f, 성별 : %c, 취미 : %s%n",
+                name, age, height, gender, hobby);
     }
 
 }
