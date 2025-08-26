@@ -13,9 +13,9 @@ public class LoopRun {
         //ex.method1();
         //ex.method3();
         //ex.method4();
-
-        LoopEx3 ex3 = new LoopEx3();
+        LoopEx2 ex2 = new LoopEx2();
         //ex2.method1();
-        ex3.method1();
+        LoopEx3 ex3 = new LoopEx3();
+        ex3.method2();
     }
 }
