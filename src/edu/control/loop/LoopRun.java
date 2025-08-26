@@ -9,8 +9,13 @@ public class LoopRun {
   // 프로그램 실행시 수행할
   // 클래스와 메서드를 중괄호 내부에 작성
     public static void main(String[] args) {
-        LoopEx ex = new LoopEx();
+        //LoopEx ex = new LoopEx();
         //ex.method1();
-        ex.method3();
+        //ex.method3();
+        //ex.method4();
+
+        LoopEx3 ex3 = new LoopEx3();
+        //ex2.method1();
+        ex3.method1();
     }
 }

@@ -4,16 +4,11 @@ import java.util.Scanner;/*
      * 루프 기능 설정요 클래스
      *
      * */
-public class LoopEx { //<HTML> 과 같이 페이지 내 코드 시작을 나타내는 구문
-
-    /*
-    *
-    * 1부터 10까지 출력하기
-    *
-    * */
+public class LoopEx {
+    //<HTML> 과 같이 페이지 내 코드 시작을 나타내는 구문
 
     public void method1(){
-        /*
+        /* 1부터 10까지 출력하기
         *  초기식 최초 1회 변수 이름의 데이터를 설정하는 구문
         *  조건식 최초 1회 변수 이름의 데이터를 기반으로 참 / 거짓 인지 판별하는 구문
         *         참일 경우 중괄호 내에 존재하는 코드 구문 수행
@@ -74,45 +69,68 @@ public class LoopEx { //<HTML> 과 같이 페이지 내 코드 시작을 나타�
         }
     }
 
-    /*
-    * 최대, 최소갑 구하기(Math)
-    * - Java API 활요한 방벙
-    *
-    * Math.min(a,b) =  수를 비교하여 최소값 찾는 기능
-    * Math.max(a,b) =  수를 비교하여 최소값 찾는 기능
-    *
-    * 사용자로부터 두 수를 입력받고,
-    *  입력 받은 수 중에서 작은 값과 큰 값을 변환
-    *  최소값 부터 최대값 까지 for 문을 이용하여 추ㅡㄹ력
-    *
-    * 변수 이름 (int 최소 int 최대 int i)
-    *
-    * */
-
     public void method4() {
-
+        /*
+         * 최대, 최소갑 구하기(Math)
+         * - Java API 활요한 방벙
+         *
+         * Math.min(a,b) =  수를 비교하여 최소값 찾는 기능
+         * Math.max(a,b) =  수를 비교하여 최소값 찾는 기능
+         *
+         * 사용자로부터 두 수를 입력받고,
+         *  입력 받은 수 중에서 작은 값과 큰 값을 변환
+         *  최소값 부터 최대값 까지 for 문을 이용하여 추ㅡㄹ력
+         *
+         * 변수 이름 (int 최소 int 최대 int i)
+         *
+         * */
         Scanner sc = new Scanner(System.in);
         System.out.print("숫자 2가지를 입력하세요 : ");
         int a = sc.nextInt();
         int b = sc.nextInt();
 
-        Math.min(a,b);
+        // Math 활용하여 최소, 최대 구하기
+        int min  = Math.min(a,b);
+        int max  = Math.max(a,b);
 
-        // a가 b와 같거나 b보다 작을경우
-        if(a <= max){
-            for(int i = a; i<= max; i++){
-                System.out.println(i);
-            }
-        }else {
-            for(int i = max; i<=a; i++){
-                System.out.println(i);
-            }
+        // 최소 ~ 최대 범위 출력
+        System.out.println("최소값부터 최대값까지 출력:");
+        for (int i = min; i <= max; i++) {
+            System.out.print(i + " ");
         }
     }
 
 
+    public void method5() {
+        /*
+         * 최대, 최소갑 구하기(Math)
+         * - Java API 활요한 방벙
+         *
+         * Math.min(a,b) =  수를 비교하여 최소값 찾는 기능
+         * Math.max(a,b) =  수를 비교하여 최소값 찾는 기능
+         *
+         * 사용자로부터 두 수를 입력받고,
+         *  입력 받은 수 중에서 작은 값과 큰 값을 변환
+         *  최소값 부터 최대값 까지 for 문을 이용하여 추ㅡㄹ력
+         *
+         * 변수 이름 (int 최소 int 최대 int i)
+         *
+         * */
+        Scanner sc = new Scanner(System.in);
+        System.out.print("숫자 2가지를 입력하세요 : ");
+        int a = sc.nextInt();
+        int b = sc.nextInt();
 
+        // Math 활용하여 최소, 최대 구하기
+        int min  = Math.min(a,b);
+        int max  = Math.max(a,b);
 
+        // 최소 ~ 최대 범위 출력
+        System.out.println("최소값부터 최대값까지 출력:");
+        for (int i = min; i <= max; i++) {
+            System.out.print(i + " ");
+        }
+    }
 
 
 
