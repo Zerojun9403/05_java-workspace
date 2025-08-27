@@ -127,3 +127,4 @@ public class Practice2 {
         System.out.println("전원 상태: " + (isPowerOn ? "ON" : "OFF"));
     }
 }
+
