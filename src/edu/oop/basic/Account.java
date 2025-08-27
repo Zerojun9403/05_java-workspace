@@ -165,4 +165,34 @@ public class Account {
         System.out.printf("%s 계좌에서 %d원 출금 \n", accountNumber, amount);
         System.out.println(name + "의 현재 잔액 " + balance);
     }
+
+
+
+    /*
+    *  전달 받은 금액을 balance 에 누적한 후
+    *  현재 잔액을 콘솔에 출력
+    *  메서드 : 반환값 존재하지 않는 메서드
+    *  메서드 명칭: deposit
+    *  매개변수 : long amount
+    *  기능    :  balance += amount; 형태의 이용하여 현재 잔액 추가
+    *  기능    :  system.out.println(name+"의 현재 잔액 : "+ balance);
+    * */
+
+    public void deposit(long amount){
+        // 잔액에 누적
+        this.balance += amount; //this. 생략 가능  this 이 클래스에서 변수속성에 어떤 값에 대입한다.
+        //this. 생략가능하다.
+        //this.balance = Account 클래스에서 balance 라는 변수 이름
+
+        // 입금 안내 출력
+        System.out.printf("%s 계좌에 %d원 입금%n", accountNumber, amount);
+        System.out.println(name + "의 현재 잔액 : " + balance);
+    }
+
+
+
+
+
+
+
 }
