@@ -93,12 +93,12 @@ public class Employee {
     // 개발자가 필요로 하는 기능 생성
     /* 1. 회사원 자기소개*/
     public void intoduce() {
-        System.out.printf("안녕하세요. %s부서 %s %s입니다.\n", getDepartment(), getPosition(), getName());
+        System.out.printf("안녕하세요. %s %s %s입니다.\n", getDepartment(), getPosition(), getName());
     }
 
     /* 2.근무 상태 출력*/
     public void work() {
-        System.out.printf("%s님이 %s부서에서 열심히 근무중입니다. \n", getName(), getDepartment());
+        System.out.printf("%s님이 %s 에서 열심히 근무중입니다. \n", getName(), getDepartment());
     }
 
     /* 3. 연봉정보 출력 */
@@ -142,7 +142,7 @@ public class Employee {
 
     public void retirtment(){
         int retirement = salary*workYears;
-        System.out.printf("%s님의 예상 퇴직금 : %,d만원(연봉%,d만원X근무년수%dsus \n)",getName(),retirement,getSalary(),getWorkYears());
+        System.out.printf("%s님의 예상 퇴직금 : %,d만원(연봉%,d만원X근무년수%d년)\n",getName(),retirement,getSalary(),getWorkYears());
     }
 
     /*

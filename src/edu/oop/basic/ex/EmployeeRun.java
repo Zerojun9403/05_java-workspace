@@ -54,7 +54,29 @@ public class EmployeeRun {
         System.out.println(emp1.toString());
         System.out.println(emp2.toString());
         System.out.println(emp3.toString());
+        // Sout + toString
 
+        System.out.println("===== 자기소개 =====");
+        emp1.intoduce();
+        emp2.intoduce();
+        emp3.intoduce();
+
+        System.out.println("===== 근무 현황 =====");
+        emp1.work();
+        emp2.work();
+        emp3.work();
+        System.out.println("===== 연봉 정보 =====");
+        emp1.salaryInfo();
+        emp2.salaryInfo();
+        emp3.salaryInfo();
+        System.out.println("===== 승진 대상자 확인 =====");
+        emp1.checkPromotion();
+        emp2.checkPromotion();
+        emp3.checkPromotion();
+        System.out.println("===== 퇴직금 계산  =====");
+        emp1.retirtment();
+        emp2.retirtment();
+        emp3.retirtment();
 
     }
 
