@@ -27,6 +27,8 @@ public class Employee {
     }
 
 
+
+
     //setter
 
     public void setName(String name) {
@@ -131,4 +133,37 @@ public class Employee {
 
     }
 
+
+
+    /*
+    * 퇴직금 계산 (간단계산 : 연봉X근무년수)
+    *
+    * */
+
+    public void retirtment(){
+        int retirement = salary*workYears;
+        System.out.printf("%s님의 예상 퇴직금 : %,d만원(연봉%,d만원X근무년수%dsus \n)",getName(),retirement,getSalary(),getWorkYears());
+    }
+
+    /*
+     * 상세정보 를 출력하는 기능
+     * 자바 자체에 존재하는 기능
+     * @return String 문자열 형태로 회사원의 모든 정보 를 전달해서 출력
+     *
+     * // @Override -> 추후 함께 공부해볼 어노테이션
+     * // @ ->  at, 어노테이션
+     *  */
+
+    @Override
+    public String toString() {
+        return "Employee{" +
+                "이름='" + name + '\'' +
+                ", 나이=" + age +
+                ", 부서='" + department + '\'' +
+                ", 직급='" + position + '\'' +
+                ", 연봉=" + salary +
+                ", 사원번호='" + employeeId + '\'' +
+                ", 근무년수=" + workYears +
+                '}';
+    }
 }
