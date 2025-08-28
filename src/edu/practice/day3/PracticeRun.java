@@ -5,7 +5,6 @@ public class PracticeRun {
         public static void main(String[] args) {
             Practice1 p1 = new Practice1("Java 프로그래밍","김개발",25000);
             Practice2 p2 = new Practice2("Galaxy S24",0,true);
-            Practice3 p3 = new Practice3();
             Practice4 p4 = new Practice4();
             Practice5 p5 = new Practice5();
 
@@ -32,8 +31,7 @@ public class PracticeRun {
             p2.chargeBattery(0);
             p2.displayStatus();
 
-            System.out.println("\n=== 문제 3: 은행계좌 업그레이드 ===");
-            // p3.method3();
+
 
             System.out.println("\n=== 문제 4: 학생 성적 관리 시스템 ===");
             // p4.method4();
