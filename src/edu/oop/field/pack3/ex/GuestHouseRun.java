@@ -5,6 +5,8 @@ public class GuestHouseRun {
     public static void main(String[] args) {
         System.out.println("==== 게스트하우스 방문자 관리 시스템 ====");
 
+        // """""" <pre></pre> 같은 줄력 구문
+
         GuestHouse guest1 = new GuestHouse();
         GuestHouse guest2 = new GuestHouse();
 
