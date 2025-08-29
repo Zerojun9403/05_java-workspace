@@ -21,7 +21,7 @@ public class StudentService {
 
         Student std1 = new Student("홍길동", "112233", '남');
         Student std2 = null; // name studentNumber gender java html 와 같은 속성 변수 명칭 자체가 없는 상태
-        //    Student std3 = new Student(); // name studenNumber gender java html 와 같은 속성 변수 명칭은 쓸 수 있도록 존재하는 상태
+        //    Stuadent std3 = new Student(); // name studenNumber gender jva html 와 같은 속성 변수 명칭은 쓸 수 있도록 존재하는 상태
         while (true) {
             // Scanner = input textarea 대신 사용
             // System  = div p span a 등 대신 사용   ===> html 과 java를 연결하고 나서는 html 화면을 활용
