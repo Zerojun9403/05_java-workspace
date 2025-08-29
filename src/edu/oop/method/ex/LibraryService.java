@@ -105,12 +105,23 @@ public class LibraryService {
                 case 6: // 도서관 입장/퇴장
                     System.out.println("1=입장 / 2=퇴장");
                     System.out.print("선택: ");
+                    select = sc.nextInt();
+                    if (select < 1 || select > 2) {
+                        System.out.println("잘못된 번호입니다. 1~2 중선택하세요.");
+                        return;
+                    } else if (select == 1) enterLibrary();
+                    else exitLibrary ();
                     // enterLibrary() 또는 exitLibrary() 메서드 호출
                     break;
 
                 case 7: // 도서관 통계 확인
                     System.out.println("=== 도서관 운영 통계 ===");
                     // static 변수들과 상수들 출력
+                    System.out.println("전체회원수 : " + LibraryMember.totalMemberCount+"명");
+                    System.out.println("현재 방문자 수  : " + LibraryMember.currentVisitorCount+"명");
+                    System.out.println("도서관 이름  : " + LibraryMember.LIBRARY_NAME);
+                    System.out.println("도서관 운영시간  : " + LibraryMember.MAX_BORROW_BOOKS);
+                    System.out.println("도서관 가입 연령   : " + LibraryMember.MIN_AGE_LIMIT);
                     break;
             }
         }
@@ -126,7 +137,13 @@ public class LibraryService {
         String createNumber = sc.next();
         System.out.print("맵버쉽 나이를 입력세요 : ");
         int newAge = sc.nextInt();
-
+        if(newAge < LibraryMember.MIN_AGE_LIMIT) {
+            System.out.println(LibraryMember.MIN_AGE_LIMIT + "이하이므로 가입할 수 없습니다.");
+            return null; // private 옆에 접근 제한자와 기능 명칭사이가 void가 아닌데 돌려보내야 할 때
+            // ↑ 사용하는 트릭
+            // 반환의 값을 무조건 작성해야 하기 때문에 null
+        }
+        LibraryMember.totalMemberCount++; // 회원 수 증가
         return new LibraryMember(createInfo, createName, createNumber, newAge);
 
     }
@@ -167,8 +184,6 @@ public class LibraryService {
         }
     }
 
-
-
     /*
     * @param member m1,m2,m3 가 들어올 위치
     *
@@ -189,6 +204,45 @@ public class LibraryService {
             System.out.println(bookCount + "권 반납 완료 , 납은 대출권수"+member.getBorrowedBooks());
         }
 
+
+    }
+
+
+
+    /**
+     *
+     * 도서관 입장 기능
+     *
+     *
+     *     static {
+     *         totalMemberCount = 0;
+     *         currentVisitorCount = 0;
+     *         System.out.println("=== " + LIBRARY_NAME + " 시스템 초기화 완료 ===");
+     *         System.out.println("운영시간: " + OPENING_HOURS);
+     *     }
+     *
+     * **/
+
+    /* 도서관 입장*/
+    private void enterLibrary(){
+        System.out.print(" 입장하실 고객의 정보를 작성하세요 : ");
+        String costumerName = sc.next();
+        LibraryMember.currentVisitorCount++;
+        System.out.println( costumerName + "님이 도서관에 입장하셨습니다.");
+
+    }
+
+
+    /**
+     *
+     * 도서관 퇴장 기능
+     *
+     * **/
+    private void exitLibrary(){
+        System.out.print(" 퇴장하실 고객의 정보를 작성하세요 : ");
+        String costumerName = sc.next();
+        LibraryMember.currentVisitorCount--;
+        System.out.println( costumerName + "님이 도서관에 퇴장하셨습니다.");
 
     }
 }
