@@ -134,8 +134,7 @@ public class withoutMethod2 {
 
 
         // 주문 3 배송비 계산
-        // 총 주문액
-
+        //                   총 주문금액 + 배송비(주문한금액을 넣었을 때 50000원 이하이면 + 3000
         int paymentAmount3 = totalAmount3 + 배송비계산(totalAmount3);
 
         // 주문 3 결제 영수증 출력 (또 다시 동일한 형식)
@@ -178,17 +177,6 @@ public class withoutMethod2 {
         }
         System.out.println("===============================================");
     }
-
-    /*배송비 계산 */
-    /*
-    * int shippingFee3 = 0;
-        int finalAmount3 = totalAmount3 - discountAmount3;
-        if (finalAmount3 < 50000) {
-            shippingFee3 = 3000;
-        }
-
-    *
-    * */
 
 
     public static int 배송비계산(int 최종주문가격){
