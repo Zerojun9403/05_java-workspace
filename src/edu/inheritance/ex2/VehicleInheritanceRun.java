@@ -42,7 +42,7 @@ public class VehicleInheritanceRun {
 
         // 여기에 코드 작성
 
-        Bicycle bike1 = new Bicycle("트렉","FX");
+        //Bicycle bike1 = new Bicycle("트렉","FX");
 
 
         // ============== 문제 4: 교통수단 정보 출력 ==============
@@ -102,7 +102,7 @@ public class VehicleInheritanceRun {
 
         System.out.println("\n=== Super 키워드 테스트 ===");
         Car car2 = new Car(); // 기본 생성자
-        Car car3 = new Car("기아", "K5", 2023, "회색"); // 4개 매개변수 생성자
+        //Car car3 = new Car("기아", "K5", 2023, "회색"); // 4개 매개변수 생성자
         Car car4 = new Car("BMW", "320i", 2023, "검정색", "디젤", 4); // 6개 매개변수 생성자
 
         // 각 자동차 정보 출력해보기
@@ -114,7 +114,7 @@ public class VehicleInheritanceRun {
         System.out.println("\n=== 오버라이딩 비교 ===");
         Vehicle vehicle = new Vehicle("일반", "교통수단", 2023, "무색");
         vehicle.accelerate(); // 부모 클래스 메소드
-        car.accelerate();    // 오버라이딩된 메소드
+        //car.accelerate();    // 오버라이딩된 메소드
 
 
         // ============== 보너스 문제 2: 생성자 체이닝 ==============
