@@ -42,7 +42,7 @@ public class VehicleInheritanceRun {
 
         // 여기에 코드 작성
 
-        Bicycle bike1 = new Bicycle("트렉","FX")
+        Bicycle bike1 = new Bicycle("트렉","FX");
 
 
         // ============== 문제 4: 교통수단 정보 출력 ==============

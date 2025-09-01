@@ -31,6 +31,8 @@ public class GoogleService {
         this.accountType = accountType;
     }
 
+
+
     // 공통으로 변경없이 사용할 메서드
     public void login() {
         System.out.println(userName + "님이" + serviceName + "에 로그인 했습니다. ");

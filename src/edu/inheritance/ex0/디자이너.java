@@ -1,6 +1,6 @@
-package edu.inheritance;
+package edu.inheritance.ex0;
 
-public class 디자이너 extends 직원{
+public class 디자이너 extends 직원 {
     /* extends 직원을 활용해서
     하나하나 직접 작성해야하는 필드명칭에서 공통적으로 활용할 필드 명칭을
     직원 클래스에 작성하고, 이외 추가로 필요한 필드명칭만 디자이너에서 작성
