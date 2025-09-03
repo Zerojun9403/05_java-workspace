@@ -1,5 +1,5 @@
 
-package edu.polymorphism.ex1;
+package edu.polymorphism.pack2.ex2.ex1;
 /*
 부모 클래스에 해당
 일반회원 , VIP 회원

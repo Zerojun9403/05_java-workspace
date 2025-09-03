@@ -1,4 +1,4 @@
-package edu.polymorphism.ex1;
+package edu.polymorphism.pack2.ex2.ex1;
 
 public class MemberRun {
     // 나중에 프로그램에서 알아서 만들어줌

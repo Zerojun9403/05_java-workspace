@@ -1,5 +1,5 @@
 
-package edu.polymorphism.ex1;
+package edu.polymorphism.pack2.ex2.ex1;
 /*
 부모클래스인 Member 상속받을 자식 클래스
  */

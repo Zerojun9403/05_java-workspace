@@ -1,4 +1,4 @@
-package edu.polymorphism.ex1;
+package edu.polymorphism.pack2.ex2.ex1;
 
 public class MemberService  {
 

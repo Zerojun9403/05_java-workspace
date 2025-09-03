@@ -4,33 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="상속 -  다형성, 추상화">
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/ex1/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/ex1/VIPMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/ex1/일반Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/ex1/프리미엄Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/model/Notice.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/model/Post.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/model/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/model/Review.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/run/PostMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/service/PostService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/개발자.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/관리자.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/업무수행기능.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/직원.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/직원프로그램실행.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/인터페이스.java" afterDir="false" />
+    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="상속 -  인터페이스">
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/ex1/Facebook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/ex1/Instagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/ex1/Meta플랫폼.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/ex1/소셜미디어기능들.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack3/ex1/플랫폼실행하기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/다형성.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorphism/상속,다향성,추상클래스,인터페이스" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/Apple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/Apple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/Fruit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/Fruit.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/MemberRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/ex1/MemberRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/ex1/MemberService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/VIPMember.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/일반Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/프리미엄Member.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/추상화.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/추상화.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorphism/ex1/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/ex1/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorphism/ex1/MemberRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/ex1/MemberRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorphism/ex1/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/ex1/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorphism/ex1/VIPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/ex1/VIPMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorphism/ex1/일반Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/ex1/일반Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorphism/ex1/프리미엄Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorphism/pack2/ex2/ex1/프리미엄Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +28,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -95,7 +84,8 @@
     "애플리케이션.PracticeRun.executor": "Run",
     "애플리케이션.VehicleInheritanceRun.executor": "Run",
     "애플리케이션.edu.practice.day7.PracticeRun.executor": "Run",
-    "애플리케이션.직원프로그램실행.executor": "Run"
+    "애플리케이션.직원프로그램실행.executor": "Run",
+    "애플리케이션.플랫폼실행하기.executor": "Run"
   }
 }]]></component>
   <component name="RunManager">
@@ -138,7 +128,7 @@
       <workItem from="1756727047259" duration="1697000" />
       <workItem from="1756728831636" duration="45000" />
       <workItem from="1756806499001" duration="655000" />
-      <workItem from="1756859197110" duration="13674000" />
+      <workItem from="1756859197110" duration="17085000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -228,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756867341878</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="상속 -  인터페이스">
+      <option name="closed" value="true" />
+      <created>1756872978692</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1756872978692</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,7 +242,8 @@
     <MESSAGE value="2025_09_01 day6 과제 및 수업내용 정리" />
     <MESSAGE value="2025_09_01 day7 과제" />
     <MESSAGE value="상속 -  다형성, 추상화" />
-    <option name="LAST_COMMIT_MESSAGE" value="상속 -  다형성, 추상화" />
+    <MESSAGE value="상속 -  인터페이스" />
+    <option name="LAST_COMMIT_MESSAGE" value="상속 -  인터페이스" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
