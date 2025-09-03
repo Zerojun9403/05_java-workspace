@@ -1,5 +1,5 @@
 package edu.practice.day7;
-import edu.practice.day7.*;
+import edu.practice.day7.modal.*;
 
 /**
  * Java 7일차 상속, 추상화, 다형성 실습문제 실행 클래스
@@ -10,15 +10,15 @@ public class PracticeRun {
         System.out.println("=== Java 7일차 상속, 추상화, 다형성 실습문제 실행 ===");
 
         // 문제 1-4: 개별 클래스 테스트
-        // testKakaoTalk();
-        // testKakaoPay();
-        // testKakaoMap();
+        //testKakaoTalk();
+        //testKakaoPay();
+        //testKakaoMap();
 
         // 다형성 테스트
-        // testPolymorphism();
+        testPolymorphism();
 
         // 추상 클래스 테스트
-         testAbstractClass();
+         //testAbstractClass();
     }
 
     public static void testKakaoTalk() {

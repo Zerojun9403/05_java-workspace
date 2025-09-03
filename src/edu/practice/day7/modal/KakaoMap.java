@@ -1,15 +1,18 @@
-package edu.practice.day7;
+package edu.practice.day7.modal;
 
 public class KakaoMap extends KakaoService {
     private String currentLocation;
     private boolean isGPSEnabled;
 
-    public KakaoMap() {}
+    public KakaoMap() {
+        this.currentLocation = "위치 정보 없음";
+        this.isGPSEnabled = false;
+    }
 
     public KakaoMap(String serviceName, String userId, String userNickname, String currentLocation, boolean isGPSEnabled) {
         super(serviceName, userId, userNickname);
         this.currentLocation = currentLocation;
-        this.isGPSEnabled = isGPSEnabled;
+        this.isGPSEnabled = false;
     }
 
     @Override

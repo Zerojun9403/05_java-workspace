@@ -1,4 +1,4 @@
-package edu.practice.day7;
+package edu.practice.day7.modal;
 
 public abstract class KakaoService {
     protected String serviceName;

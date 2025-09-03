@@ -1,4 +1,4 @@
-package edu.practice.day7;
+package edu.practice.day7.modal;
 
 public class KakaoTalk extends KakaoService {
     private int friendCount;

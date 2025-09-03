@@ -1,10 +1,14 @@
-package edu.practice.day7;
+package edu.practice.day7.modal;
 
 public class KakaoPay extends KakaoService {
     private int balance;
     private String bankAccount;
 
-    public KakaoPay() {}
+    public KakaoPay() {
+        super();
+        this.balance = 0;
+        this.bankAccount= " ";
+    }
 
     public KakaoPay(String serviceName, String userId, String userNickname, int balance, String bankAccount) {
         super(serviceName, userId, userNickname);
