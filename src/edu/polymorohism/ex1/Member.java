@@ -61,12 +61,27 @@ public abstract class Member {
     // 저(abstract) 를 쓴다 합니다.
     public  abstract double 할인율();
 
-    public abstract void 쿠폰과혜택();
 
     // 일반Member = 보유하고 있는 쿠폰과 혜택이 존재하지 않습니다.
-    // 구독 서비스에 따라 쿠폰 과 혜택을 받으실 수 있습니;다.
+    // 구독 서비스에 따라 쿠폰 과 혜택을 받으실 수 있습니다.
 
+    protected String memberName;   // 회원 이름
+    protected String grade;        // 등급 (일반, 프리미엄, VIP)
 
+    // 생성자
+
+    public Member(String grade, String memberName) {
+        this.grade = grade;
+        this.memberName = memberName;
+    }
+
+    // 회원 공통 정보 확인
+    public void info() {
+        System.out.println("회원명: " + memberName + " / 등급: " + grade);
+    }
+
+    // 등급별 쿠폰과 혜택 출력 → 자식이 반드시 구현해야 함
+    public abstract void 쿠폰과혜택();
 
     // 프리미엄Memver = 현재 ㅇㅇㅇ 쿠폰을 보유하고 있습니다.
     // 아쉽게도 혜택은 존재하지 않습니다.

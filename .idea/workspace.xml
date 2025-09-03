@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="상속 -  다형성, 추상화">
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/MemberRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/MemberService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/VIPMember.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/일반Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/프리미엄Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/MemberRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/MemberRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/VIPMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/VIPMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/일반Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/일반Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/polymorohism/ex1/프리미엄Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/프리미엄Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,7 +116,7 @@
       <workItem from="1756727047259" duration="1697000" />
       <workItem from="1756728831636" duration="45000" />
       <workItem from="1756806499001" duration="655000" />
-      <workItem from="1756859197110" duration="6601000" />
+      <workItem from="1756859197110" duration="8094000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -191,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756862485471</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="상속 -  다형성, 추상화">
+      <option name="closed" value="true" />
+      <created>1756865975477</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1756865975477</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

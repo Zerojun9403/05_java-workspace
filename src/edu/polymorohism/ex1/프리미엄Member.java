@@ -33,9 +33,19 @@ public class 프리미엄Member extends Member {
     public void set쿠폰(String 쿠폰) {
         this.쿠폰 = 쿠폰;
     }
+    private String get해택() {
+    }
+
 
     @Override
     public double 할인율() {
         return 0.15; // 15%할인
     }
+
+    @Override
+    public void 쿠폰과혜택() {
+        System.out.println("현재" + get쿠폰() + "과" + get해택() +"해택 이용이 가능합니다 " );
+    }
+
+
 }

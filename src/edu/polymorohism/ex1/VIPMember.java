@@ -37,4 +37,9 @@ public class VIPMember extends Member{
     public double 할인율() {
         return 0.25; // 25% 할인
     }
+
+    @Override
+    public void 쿠폰과혜택() {
+        System.out.println("현재" + get쿠폰() + "과" + get해택() +"해택 이용이 가능합니다 " );
+    }
 }

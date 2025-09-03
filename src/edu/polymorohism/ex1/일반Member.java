@@ -21,5 +21,14 @@ public class 일반Member extends Member {
         return 0.05;  //일반 맴버는 5% 할인
     }
 
+    @Override
+    public void 쿠폰과혜택() {
+        System.out.println("현재" + get쿠폰() + "과" + get해택() +"해택 이용이 가능합니다 " );
+    }
 
+    private String get해택() {
+    }
+
+    private String get쿠폰() {
+    }
 }

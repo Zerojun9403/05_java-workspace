@@ -8,7 +8,7 @@ public class MemberRun {
         // 오직 실행 모든 행동은 main 매서드
         MemberService memberService = new MemberService();
 
-        memberService.display;
+        memberService.display();
 
     }
 }
