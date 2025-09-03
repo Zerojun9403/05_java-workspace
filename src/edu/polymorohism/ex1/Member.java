@@ -60,4 +60,22 @@ public abstract class Member {
     // 필수로 자식클래스에서 작성해야한다는 표기가 존재하지 않는데
     // 저(abstract) 를 쓴다 합니다.
     public  abstract double 할인율();
+
+    public abstract void 쿠폰과혜택();
+
+    // 일반Member = 보유하고 있는 쿠폰과 혜택이 존재하지 않습니다.
+    // 구독 서비스에 따라 쿠폰 과 혜택을 받으실 수 있습니;다.
+
+
+
+    // 프리미엄Memver = 현재 ㅇㅇㅇ 쿠폰을 보유하고 있습니다.
+    // 아쉽게도 혜택은 존재하지 않습니다.
+    //  VIP로 구독 업그레이드 하기
+
+
+
+
+    // VIPMember =  현재 ㅇㅇㅇ 쿠폰과 ㅇㅇㅇ 해택 이용 가능합니다.
+
+    // 를 MemberSerivce 에서 회원, 쿠폰과 해택으로 확인하기
 }
