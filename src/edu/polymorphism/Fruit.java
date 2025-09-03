@@ -1,4 +1,4 @@
-package edu.polymorohism;
+package edu.polymorphism;
 
 
 // 문서 인데

@@ -1,4 +1,4 @@
-package edu.polymorohism;
+package edu.polymorphism;
 /*
 추상화 : 어떤 개념이나 정보를 단순화하고 핵심적인 요소만 뽑아내는 것을 의미
 
