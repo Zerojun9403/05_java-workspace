@@ -1,4 +1,4 @@
-package edu.practice.day8.modal;
+package edu.practice.day8.modal.Video;
 
 public class YouTube implements VideoPlayer {
     private String videoTitle;

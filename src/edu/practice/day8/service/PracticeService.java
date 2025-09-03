@@ -1,6 +1,14 @@
 package edu.practice.day8.service;
 
-import edu.practice.day8.modal.*;
+import edu.practice.day8.modal.SNS.Instagram;
+import edu.practice.day8.modal.SNS.SocialMedia;
+import edu.practice.day8.modal.SNS.Twitter;
+import edu.practice.day8.modal.Shopping.Amazon;
+import edu.practice.day8.modal.Shopping.Coupang;
+import edu.practice.day8.modal.Shopping.OnlineShopping;
+import edu.practice.day8.modal.Video.TikTok;
+import edu.practice.day8.modal.Video.VideoPlayer;
+import edu.practice.day8.modal.Video.YouTube;
 
 public class PracticeService  {
 
@@ -37,23 +45,25 @@ public class PracticeService  {
        twitter.like();
         twitter.share();
     }
-//
-//    public void onlineShopping() {
-//        System.out.println("\n=== OnlineShopping 인터페이스 테스트 ===");
-//
-//        OnlineShopping amazon = new Amazon("프로그래밍 책");
-//        OnlineShopping coupang = new Coupang("무선 마우스");
-//
-//        System.out.println("--- Amazon 테스트 ---");
-//        amazon.browse();
-//        amazon.addToCart();
-//        amazon.purchase();
-//
-//        System.out.println("\n--- Coupang 테스트 ---");
-//        coupang.browse();
-//        coupang.addToCart();
-//        coupang.purchase();
-//    }
+
+    public void OnlineShopping() {
+        System.out.println("\n=== OnlineShopping 인터페이스 테스트 ===");
+
+        OnlineShopping amazon = new Amazon("프로그래밍 책");
+        OnlineShopping coupang = new Coupang("무선 마우스");
+
+        System.out.println("--- Amazon 테스트 ---");
+      amazon.browse();
+        amazon.addToCart();
+       amazon.purchase();
+
+       System.out.println("\n--- Coupang 테스트 ---");
+        coupang.browse();
+        coupang.addToCart();
+        coupang.purchase();
+    }
+
+
 //
 //    public void messenger() {
 //        System.out.println("\n=== Messenger ===");

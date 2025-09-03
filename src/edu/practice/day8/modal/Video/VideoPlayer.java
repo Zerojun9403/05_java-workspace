@@ -1,4 +1,4 @@
-package edu.practice.day8.modal;
+package edu.practice.day8.modal.Video;
 
 public interface VideoPlayer {
     void upload();

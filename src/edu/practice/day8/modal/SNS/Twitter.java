@@ -1,4 +1,4 @@
-package edu.practice.day8.modal;
+package edu.practice.day8.modal.SNS;
 
 public class Twitter implements SocialMedia {
     private String tweet;

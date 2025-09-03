@@ -13,6 +13,7 @@ import edu.practice.day8.service.PracticeService;
             PracticeService practiceService = new PracticeService();
             practiceService.videoPlayer();
             practiceService.SocialMedia();
+            practiceService.OnlineShopping();
 
 
         }
