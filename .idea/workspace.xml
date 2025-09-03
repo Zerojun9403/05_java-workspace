@@ -4,27 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="? 알수없음">
+    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="2025_09_01 day7 과제">
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorohism/Apple.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorohism/Fruit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorohism/ex1/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/polymorohism/추상화.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex1/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex/AnimalInheritanceRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex1/AnimalInheritanceRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex/Bird.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex1/Bird.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex1/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex1/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex2/Bicycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex2/Bicycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex2/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex2/Car.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex2/Motorcycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex2/Motorcycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex2/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex2/Vehicle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex2/VehicleInheritanceRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex2/VehicleInheritanceRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex3/Gmail.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex3/Gmail.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex3/GoogleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex3/GoogleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex3/GoogleServiceRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex3/GoogleServiceRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/inheritance/ex3/YouTube.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/inheritance/ex3/YouTube.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day6/Practice1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day6/NaverService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day6/Practice2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day6/NaverShopping.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day6/Practice3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day6/NaverBlog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day6/Practice4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day6/NaverCafe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day6/PracticeRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day6/PracticeRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,30 +49,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.GoogleServiceRun.executor": "Run",
-    "애플리케이션.PracticeRun.executor": "Run",
-    "애플리케이션.VehicleInheritanceRun.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.completion&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.GoogleServiceRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PracticeRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.VehicleInheritanceRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.edu.practice.day7.PracticeRun.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PracticeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.practice.day6.PracticeRun" />
@@ -111,8 +97,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.23892.409" />
-        <option value="bundled-js-predefined-d6986cc7102b-e03c56caf84a-JavaScript-IU-252.23892.409" />
+        <option value="bundled-jdk-9823dce3aa75-bf35d07a577b-intellij.indexing.shared.core-IU-252.25557.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-b598e85cdad2-JavaScript-IU-252.25557.131" />
       </set>
     </attachedChunks>
   </component>
@@ -125,7 +111,10 @@
       <updated>1756708434685</updated>
       <workItem from="1756708436212" duration="7023000" />
       <workItem from="1756716055054" duration="1214000" />
-      <workItem from="1756727047259" duration="1501000" />
+      <workItem from="1756727047259" duration="1697000" />
+      <workItem from="1756728831636" duration="45000" />
+      <workItem from="1756806499001" duration="655000" />
+      <workItem from="1756859197110" duration="3239000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -175,7 +164,23 @@
       <option name="project" value="LOCAL" />
       <updated>1756727361508</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="2025_09_01 day6 과제 및 수업내용 정리">
+      <option name="closed" value="true" />
+      <created>1756728614001</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1756728614001</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2025_09_01 day7 과제">
+      <option name="closed" value="true" />
+      <created>1756807150689</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1756807150689</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,7 +193,9 @@
     <MESSAGE value="상속실습 - 증가" />
     <MESSAGE value="Day6-과제 일부" />
     <MESSAGE value="? 알수없음" />
-    <option name="LAST_COMMIT_MESSAGE" value="? 알수없음" />
+    <MESSAGE value="2025_09_01 day6 과제 및 수업내용 정리" />
+    <MESSAGE value="2025_09_01 day7 과제" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025_09_01 day7 과제" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
