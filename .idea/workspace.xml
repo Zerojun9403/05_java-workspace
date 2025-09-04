@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="컬렉션 (Set - HashSet&amp;TreeSet, Map)">
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/practice/RPGGame/RPGGameWithoutMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/practice/day9/MemberPointManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/practice/day9/PracticeRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/practice/day9/ProductManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/oop/basic/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/oop/basic/AccountRun.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/oop/cls/pack2/OtherClassTestRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/oop/cls/pack2/OtherClassTestRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/practice/day3/Practice3.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +82,7 @@
     "애플리케이션.MemberRun.executor": "Run",
     "애플리케이션.PostMain.executor": "Run",
     "애플리케이션.PracticeRun.executor": "Run",
+    "애플리케이션.ProductManager.executor": "Run",
     "애플리케이션.SetRun.executor": "Run",
     "애플리케이션.TaxtRun.executor": "Run",
     "애플리케이션.VehicleInheritanceRun.executor": "Run",
@@ -86,7 +93,7 @@
     "애플리케이션.플랫폼실행하기.executor": "Run"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="애플리케이션.ProductManager">
     <configuration name="PracticeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.practice.day6.PracticeRun" />
       <module name="java_basic" />
@@ -100,8 +107,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProductManager" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.practice.day9.ProductManager" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.practice.day9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.ProductManager" />
         <item itemvalue="애플리케이션.PracticeRun" />
       </list>
     </recent_temporary>
