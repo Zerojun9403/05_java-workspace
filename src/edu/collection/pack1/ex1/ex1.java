@@ -1,7 +1,10 @@
 package edu.collection.pack1.ex1;
 
+import edu.collection.pack1.model.Book;
+
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class ex1 {
 
@@ -144,6 +147,45 @@ public class ex1 {
         System.out.println("가장 큰 숫자: " + max);
     }
 
+    /*
+    *    List : 목록에 관련된 컬렉션
+    *   Array List : 배열 형태의 리스트
+    *                   장점: 검색이 빠름
+    *                   단점: 중간 삽입, 제거가 느림
+    *                   사용예시 : 학생 성적관리 (조회가 많은 경우)
+    *                                    게시판 목록(순서대로 보기)
+    *                                   설정 값들 저장( 가끔 수정)
+    *                                   대부분의 일반적인 상황은 거의 사용
+    *    LinkedList :  서로 연결된 링크 형태의 리스트 (기차 )
+    *                   장점 : 중간삽입, 제거가 빠름
+    *                   단점 : 검색이 느림
+    *                   사용예시 : 음악 플레이리스트(중간에 곡  삽입 /삭제)
+    *                                    실행 취소 기능( 앞, 뒤 로 이동)
+    *                                     대기열 관린(앞에서 뺴고 뒤에서 넣기)
+    *
+    *
+    *  대부분 의 경우 ArrayList 를 주로 사용
+    *
+    *
+    *
+    * LinkedList 경우에는 중간에 삽입 / 삭제가 정~~~~~~~~말 많을때만 사용
+    *                                 확실한 이유가 있을 때만 사용
+    *
+    * */
 
+    public  void bookManage(){
+        // while 이용해서 도서 추가 , 전체조회, 동료
+
+        List<Book> bookList = new ArrayList<>();
+
+
+        Scanner sc = new Scanner(System.in);
+        int input = 0;
+
+        while (true){
+
+        }
+
+    }
 
 }
