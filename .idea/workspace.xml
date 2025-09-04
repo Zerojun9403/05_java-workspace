@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="컬렉션 (List - ArrayList,LinkedList)">
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack2/model/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack2/run/SetRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack2/service/SetService.java" afterDir="false" />
+    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="컬렉션 (Set - HashSet)">
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/Collection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack1/ex1/ex1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack1/ex1/ex1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack1/ex1/ex1Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack1/ex1/ex1Run.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack1/model/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack1/model/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack1/run/ListRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack1/run/ListRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack1/service/ListService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack1/service/ListService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack2/run/SetRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack2/run/SetRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack2/service/SetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack2/service/SetService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +128,7 @@
       <workItem from="1756806499001" duration="655000" />
       <workItem from="1756859197110" duration="27738000" />
       <workItem from="1756945895941" duration="9233000" />
-      <workItem from="1756955192170" duration="4051000" />
+      <workItem from="1756955192170" duration="8838000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -288,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756956030394</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="컬렉션 (Set - HashSet)">
+      <option name="closed" value="true" />
+      <created>1756959581349</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1756959581349</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +312,8 @@
     <MESSAGE value="day 8 - 과제(Video,SNS,Shopping)" />
     <MESSAGE value="컬렉션 (List - ArrayList)" />
     <MESSAGE value="컬렉션 (List - ArrayList,LinkedList)" />
-    <option name="LAST_COMMIT_MESSAGE" value="컬렉션 (List - ArrayList,LinkedList)" />
+    <MESSAGE value="컬렉션 (Set - HashSet)" />
+    <option name="LAST_COMMIT_MESSAGE" value="컬렉션 (Set - HashSet)" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

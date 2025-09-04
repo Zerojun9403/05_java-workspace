@@ -1,7 +1,6 @@
 package edu.collection.pack2.service;
 
-import java.util.HashSet;
-import java.util.Set;
+import java.util.*;
 
 public class SetService {
 
@@ -30,8 +29,6 @@ public class SetService {
         set.add("네이버");
         set.add("라인");
         set.add("당근");
-
-
 
 
         // 2. 모두 조회 출력 . toString 을 생략하고, 변수 이름만 작성 가능 Ok
@@ -66,6 +63,108 @@ public class SetService {
         // null 은 데이터가 존재하지 않음 표기
         // null 또한 데이터로 판단하기  때문에 1회 들어감
         // null 2개 이상 존재하지 않음
+
+
+        // 3. 순차 접근하여 모든 데이터 확인하기
+        //  Iterator  = 순차적으로 접근할수 있도록 설정된 문서
+        // 반복자 - 컬렉션에 객체에 저장된 요소를 하나씩 접근 하는 객체
+        // boolean hasNext(); 다음 순처 접근할 요소가 있으면 true false
+        // 다음에 접근할 데이터가 존재하나요?  while 문을 주로 사용
+        // List 는 인덱스 번호가 존재하면 Set의 경우에는 데이터 순번이나 키 명칭이 존재하지 않기 때문
+
+
+        Iterator<String> it = set.iterator();
+        System.out.println("=".repeat(20) + "Set출력" + "=".repeat(20));
+        while (it.hasNext()) {
+            System.out.println(it.next());
+
+            // 마지막에 작성된 String 문자열 데이터 다음 공백까지 출력하고
+            // 공백 이후부터는 정말로 데이터가 없는 상태이기 때문에
+            // while 문이 false 가 되어 종료
+        }
+
+
     }
+
+
+    /*
+
+    List Set Map 모두 동이랗게 사용 가능
+    * boolean remove(E e) : 요소 제거 가 됐으면 ture 제거할 게 없으면 false
+    * boolean contains(E e) : 요소가 존재하면 ture 없으면 false
+    *
+    *
+    * void clear(    ) : set에 저장된 내용 모두 삭제
+    * set.clear(    ) : 모두 제거
+    *
+    * boolean isEmpty(    ) : 비어있으면 true 아니면 false
+    *
+    *
+    * */
+
+    public void method2() {
+
+
+        Set<String> 과자들 = new HashSet<>();
+
+
+        과자들.add("몽쉘");
+        과자들.add("꼬북칩");
+        과자들.add("빈츠");
+
+        과자들.remove("꼬북칩");
+
+        System.out.println("과자들에서 빈츠가 잘 지워졌나요? : "+ 과자들.remove("빈츠"));
+
+        과자들.clear(); // 과자들에 있는 모든 과자들 삭제
+
+
+        System.out.println("과자리스트 모두 잘 지우셨나요? : "+ 과자들.isEmpty());
+
+
+    }
+
+
+    /*
+     *
+     * TreeSet : 트리 구조를 이용해 객체를 저장하는 Set
+     *  -> 기본 오름차순 정렬
+     *  *  class 파일의 전제조건 : 저장되는 객체는  Comparable( =  유사한, 비교) 상속 존재
+     *
+     *
+     *
+     * */
+
+    public void lotto() {
+
+        // 난수 생성
+
+        // 1 ) Math,Random()  수학 공식 중에서 Random() 기능이 존재하는 것
+        // 2) Random.nextInt()  랜덤 자체에서 랜덤에 관하여 class 파일 자체를 만든 것
+        // 단순히 랜덤 숫자를 출력하기에는 2번 클래스 가 더 단순하게 되어 있음
+
+        Random random = new Random(); // 개밟자도 알수 없는 데이터를 담고 있는 공간의 명칭
+
+        Set<Integer> lotto = new TreeSet<>();
+        // lotto 내부애 저장된 값이 6개 미만이면 반복하고, 6개  이상이면 반복 중지
+
+        while (lotto.size() < 6) {
+            // random.nextInt(45) 0 <X < 45 사이의 알 수 없는 수 생성
+
+            lotto.add(random.nextInt(45) + 1);
+
+            //Random 클래스를 안쓰고, Math 클래스를 사용했다면 ........
+
+            // lotto .add( (int)Math.random() * 45+1);
+
+
+
+
+        }
+
+        System.out.println("이번주 Lotoo 번호 : " + lotto);
+
+    }
+
 
 }
