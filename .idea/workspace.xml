@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="day 8 - 과제(Video,SNS,Shopping)">
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/Collection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/model/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/model/ex1/ListPracticeRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/model/run/ListRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/model/service/ListService.java" afterDir="false" />
+    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="컬렉션 (List - ArrayList)">
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/ex1/ex1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/ex1/ex1Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack1/ex1/ListPracticeRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack1/run/ListPracticeRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,41 +49,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.completion",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.CardRun.executor": "Run",
-    "애플리케이션.DeliveryRun.executor": "Run",
-    "애플리케이션.GoogleServiceRun.executor": "Run",
-    "애플리케이션.ListPracticeRun.executor": "Run",
-    "애플리케이션.ListRun.executor": "Run",
-    "애플리케이션.MemberRun.executor": "Run",
-    "애플리케이션.PostMain.executor": "Run",
-    "애플리케이션.PracticeRun.executor": "Run",
-    "애플리케이션.TaxtRun.executor": "Run",
-    "애플리케이션.VehicleInheritanceRun.executor": "Run",
-    "애플리케이션.edu.practice.day7.PracticeRun.executor": "Run",
-    "애플리케이션.edu.practice.day8.run.PracticeRun.executor": "Run",
-    "애플리케이션.직원프로그램실행.executor": "Run",
-    "애플리케이션.플랫폼실행하기.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.CardRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.DeliveryRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.GoogleServiceRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ListPracticeRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ListRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MemberRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PostMain.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PracticeRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.TaxtRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.VehicleInheritanceRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.edu.practice.day7.PracticeRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.edu.practice.day8.run.PracticeRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ex1Run.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.직원프로그램실행.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.플랫폼실행하기.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PracticeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.practice.day6.PracticeRun" />
@@ -127,7 +126,8 @@
       <workItem from="1756728831636" duration="45000" />
       <workItem from="1756806499001" duration="655000" />
       <workItem from="1756859197110" duration="27738000" />
-      <workItem from="1756945895941" duration="6443000" />
+      <workItem from="1756945895941" duration="9233000" />
+      <workItem from="1756955192170" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -257,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756889624946</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="컬렉션 (List - ArrayList)">
+      <option name="closed" value="true" />
+      <created>1756952585627</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1756952585627</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,7 +285,8 @@
     <MESSAGE value="상속 -  다형성, 추상화 인터페이스" />
     <MESSAGE value="상속 -  다형성, 추상화 인터페이스&#10;day 8 - 과제 일부" />
     <MESSAGE value="day 8 - 과제(Video,SNS,Shopping)" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 8 - 과제(Video,SNS,Shopping)" />
+    <MESSAGE value="컬렉션 (List - ArrayList)" />
+    <option name="LAST_COMMIT_MESSAGE" value="컬렉션 (List - ArrayList)" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">

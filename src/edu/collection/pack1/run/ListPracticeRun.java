@@ -1,4 +1,4 @@
-package edu.collection.pack1.ex1;
+package edu.collection.pack1.run;
 
 /*
 *
