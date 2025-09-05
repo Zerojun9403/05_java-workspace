@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="컬렉션 (Set - HashSet&amp;TreeSet, Map)">
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/Run/맴버실행파일.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/model/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/model/수정파일2본.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/model/수정파일본.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/model/진짜최종마지막수정파일.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/service/맴버기능서비스.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionRun1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -57,6 +64,7 @@
     "ignore.virus.scanning.warn.message": "true",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/영준/OneDrive/Desktop/java-workpace/java_basic/src/edu/exception",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -82,6 +90,7 @@
     "애플리케이션.edu.practice.day7.PracticeRun.executor": "Run",
     "애플리케이션.edu.practice.day8.run.PracticeRun.executor": "Run",
     "애플리케이션.ex1Run.executor": "Run",
+    "애플리케이션.맴버실행파일.executor": "Run",
     "애플리케이션.직원프로그램실행.executor": "Run",
     "애플리케이션.플랫폼실행하기.executor": "Run"
   }
