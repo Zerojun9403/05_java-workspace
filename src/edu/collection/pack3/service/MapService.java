@@ -67,10 +67,10 @@ public class MapService {
 
 
         // 3. int size() : Map 에 저장된  Entry(K:V) 의 개수
-        System.out.println("size : "+ map1.size());
+        System.out.println("size : " + map1.size());
 
-       // 4. V remove (K k) :
-       // - key가 일치하는 Entry 를 제거
+        // 4. V remove (K k) :
+        // - key가 일치하는 Entry 를 제거
         // - 일치하는 Key가 있다면 Value, 없다면 null 반환
         System.out.println("remove(2) : " + map1.remove(2));
         System.out.println("remove(2) : " + map1.remove(5));
@@ -83,7 +83,48 @@ public class MapService {
         System.out.println("Clear() 전 isEmpty() : " + map1.isEmpty()); // false : 데이터 들어있음
         map1.clear(); // 데이터 모두 지우기
         System.out.println("Clear() 후 isEmpty() : " + map1.isEmpty()); // true : 데이터 존재하지 않음
-
-
     }
+    /*
+     *  map 에서 for 문 대신 순차적으로 데이터 출력하는 방법
+     *
+     * 1) Map.keyset()
+     *
+     * 2) Entry.getKey() : Key 만 얻어오기
+     *    Enty.getValue(); : Value 만 얻어오기
+     *
+     *
+     *
+     * */
+
+    public void method2() {
+        Map<String, String> map2 = new HashMap<>();
+
+        map2.put("학원", "서울시 종로구");
+        map2.put("집", "서울시 중구");
+        map2.put("롯데타워", "서울시 송파구");
+        map2.put("63빌딩", "서울시 영등포구");
+
+
+        // 1번 방법 향상된 for문 + Set
+        for (String key : map2.keySet()) {
+            System.out.printf("%-10s : %s \n", key, map2.get(key));
+        }
+
+        // 🌟 2번 방법 향상된 for문 + EntrySet
+        // Map 이라는 클래스 내부에 Entry 라는 기능을 이용해서 keydhk value 를 확인하기 위한 기능
+
+
+        // 향상된 for 문은 항상 끝나기 전 ' ) ' 소괄호 앞에 존재하는 명팅이 기준 !!!!!!
+        // 1. map1 이  어디서 선언되었고, map2 이라는 명칭의 공간이 생성되었는지 확인
+        // 2.  Map<String, String> map2 = new HashMap<>(); 선언된 map2 의 자료형을 확인
+        // 문자열 무자열 이기 때문에
+        //  ↓ 아래 들어가는 자료형 또한 Map<String, String> 과 도일하게 작성해야함
+        //  ↓  map2  에 존재하는 데이터들을 하니씩 하나씩 꺼내서 확인할  것이기 때문
+
+        for (Map.Entry<String, String> entry : map2.entrySet()) {
+            System.out.printf("%-10s : %s \n", entry.getKey(), entry.getValue());
+        }
+    }
+
 }
+

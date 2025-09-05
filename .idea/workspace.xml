@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="컬렉션 (Set - HashSet&amp;TreeSet, Map)">
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapRun.java" afterDir="false" />
+    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="컬렉션 ( Map - HashMap )">
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/ex2/EmployeeManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/ex2/MenuOrderRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/Run/WrapperRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/service/JavaAPIService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/collection/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/Collection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,16 +73,19 @@
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.CardRun.executor": "Run",
     "애플리케이션.DeliveryRun.executor": "Run",
+    "애플리케이션.EmployeeManage.executor": "Run",
     "애플리케이션.GoogleServiceRun.executor": "Run",
     "애플리케이션.ListPracticeRun.executor": "Run",
     "애플리케이션.ListRun.executor": "Run",
     "애플리케이션.MapRun.executor": "Run",
     "애플리케이션.MemberRun.executor": "Run",
+    "애플리케이션.MenuOrderRun.executor": "Run",
     "애플리케이션.PostMain.executor": "Run",
     "애플리케이션.PracticeRun.executor": "Run",
     "애플리케이션.SetRun.executor": "Run",
     "애플리케이션.TaxtRun.executor": "Run",
     "애플리케이션.VehicleInheritanceRun.executor": "Run",
+    "애플리케이션.WrapperRun.executor": "Run",
     "애플리케이션.edu.practice.day7.PracticeRun.executor": "Run",
     "애플리케이션.edu.practice.day8.run.PracticeRun.executor": "Run",
     "애플리케이션.ex1Run.executor": "Run",
@@ -129,7 +136,9 @@
       <workItem from="1756859197110" duration="27738000" />
       <workItem from="1756945895941" duration="9233000" />
       <workItem from="1756955192170" duration="8896000" />
-      <workItem from="1756966314564" duration="2485000" />
+      <workItem from="1756966314564" duration="9678000" />
+      <workItem from="1756976251221" duration="778000" />
+      <workItem from="1757032567356" duration="2592000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -299,11 +308,30 @@
       <option name="project" value="LOCAL" />
       <updated>1756966266958</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="컬렉션 ( Map - HashMap )">
+      <option name="closed" value="true" />
+      <created>1756968852495</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1756968852495</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -323,7 +351,8 @@
     <MESSAGE value="컬렉션 (List - ArrayList,LinkedList)" />
     <MESSAGE value="컬렉션 (Set - HashSet)" />
     <MESSAGE value="컬렉션 (Set - HashSet&amp;TreeSet, Map)" />
-    <option name="LAST_COMMIT_MESSAGE" value="컬렉션 (Set - HashSet&amp;TreeSet, Map)" />
+    <MESSAGE value="컬렉션 ( Map - HashMap )" />
+    <option name="LAST_COMMIT_MESSAGE" value="컬렉션 ( Map - HashMap )" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
