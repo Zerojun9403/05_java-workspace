@@ -7,8 +7,8 @@ public class RPGGameWithoutMethods {
         String warrior = "용감한 전사";
         int warriorLevel = 15;
         int warriorStr = 80;
-        int warriorDef = 60;
-        int warriorMagic = 20;
+        int warriorDef = 70;
+        int warriorMagic = 50;
 
         // 전사 총 스탯 계산
         int warriorTotal = warriorStr + warriorDef + warriorMagic;
