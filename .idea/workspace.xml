@@ -5,9 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Exception">
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack2/ExceptionEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack2/ExceptionRun2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack2/ex/ExceptionPractice2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack2/ex/ExceptionPracticeRun2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ExceptionEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ExceptionRun3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex/Run/CartRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex/Service/CartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex/Service/CartTimeoutException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex/modal/Cart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/Run/CustomExceptionRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/Service/CustomExceptionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/EmptyNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/InvalidScoreException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/NegativeNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/TooManyItemsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/TooShortPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/회사에서만든예외문서.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex3/NewFileServiceRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/개발자Exception.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack4/Run/PractionExceptonRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack4/Run/PractionExceptonRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack4/model/PractionExcepton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack4/model/PractionExcepton1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionEx1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,12 +85,16 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.CardRun.executor": "Run",
+    "애플리케이션.CustomExceptionRun.executor": "Run",
     "애플리케이션.DeliveryRun.executor": "Run",
+    "애플리케이션.ExceptionPracticeRun2.executor": "Run",
     "애플리케이션.ExceptionRun1.executor": "Run",
+    "애플리케이션.ExceptionRun2.executor": "Run",
+    "애플리케이션.ExceptionRun3.executor": "Run",
     "애플리케이션.GoogleServiceRun.executor": "Run",
     "애플리케이션.ListPracticeRun.executor": "Run",
     "애플리케이션.ListRun.executor": "Run",
@@ -95,26 +118,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\영준\OneDrive\Desktop\java-workpace\java_basic\src\edu\exception" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration name="PracticeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.practice.day6.PracticeRun" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.practice.day6.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="애플리케이션.PracticeRun" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -140,6 +143,8 @@
       <workItem from="1756945895941" duration="9233000" />
       <workItem from="1756955192170" duration="8896000" />
       <workItem from="1756966314564" duration="2485000" />
+      <workItem from="1757053311763" duration="6980000" />
+      <workItem from="1757060341676" duration="1050000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -333,7 +338,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757042573394</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Exception">
+      <option name="closed" value="true" />
+      <created>1757046017816</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1757046017816</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -368,6 +381,16 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/NegativeNumberException.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/exception/pack2/ExceptionEx2.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
