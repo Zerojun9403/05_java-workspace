@@ -1,7 +1,7 @@
 package edu.collection.pack4.Run;
 
 import edu.collection.pack4.model.Member;
-import edu.collection.pack4.service.맴버기능서비스;
+import edu.collection.pack4.service.멤버기능서비스;
 
 import java.util.Scanner;
 
@@ -13,7 +13,7 @@ public class 맴버실행파일 {
 
         Scanner sc = new Scanner(System.in); // html 화면 대신 사용
         Member  m1 = new Member();
-        맴버기능서비스 service = new 맴버기능서비스();
+        멤버기능서비스 service = new 멤버기능서비스();
         new Member().set맴버이름("홍길동");
         new Member().set맴버이름("강말숙");
         // 공간을 생성하고 공간안에 홍길동 이나 강말숙 설정
