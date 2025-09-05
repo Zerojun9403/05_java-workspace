@@ -5,28 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Exception">
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack2/ExceptionEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack2/ExceptionRun2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack2/ex/ExceptionPractice2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack2/ex/ExceptionPracticeRun2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ExceptionEx3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ExceptionRun3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex/Run/CartRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex/Service/CartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex/Service/CartTimeoutException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex/modal/Cart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/Run/CustomExceptionRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/Service/CustomExceptionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/EmptyNameException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/InvalidScoreException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/NegativeNumberException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/TooManyItemsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/TooShortPasswordException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex2/개발자Exception/회사에서만든예외문서.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex3/NewFileServiceRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/exception/pack3/개발자Exception.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionEx1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/exception/pack3/ex3/NewFileServiceRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/exception/pack3/ex3/NewFileServiceRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,6 +80,7 @@
     "애플리케이션.ListRun.executor": "Run",
     "애플리케이션.MapRun.executor": "Run",
     "애플리케이션.MemberRun.executor": "Run",
+    "애플리케이션.NewFileServiceRun.executor": "Run",
     "애플리케이션.PostMain.executor": "Run",
     "애플리케이션.PracticeRun.executor": "Run",
     "애플리케이션.PractionExceptonRun.executor": "Run",
@@ -144,7 +125,7 @@
       <workItem from="1756955192170" duration="8896000" />
       <workItem from="1756966314564" duration="2485000" />
       <workItem from="1757053311763" duration="6980000" />
-      <workItem from="1757060341676" duration="1050000" />
+      <workItem from="1757060341676" duration="1795000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -346,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757046017816</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Exception">
+      <option name="closed" value="true" />
+      <created>1757061464921</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1757061464921</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
