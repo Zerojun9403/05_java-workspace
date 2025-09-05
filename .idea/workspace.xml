@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Exception">
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/Run/PractionExceptonRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/model/PractionExcepton1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack4/Run/맴버실행파일.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack4/Run/맴버실행파일.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack4/model/수정파일2본.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack4/model/수정파일2본.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack4/service/맴버기능서비스.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack4/service/멤버기능서비스.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionEx1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionEx1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionRun1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/exception/pack1/ExceptionRun1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack4/Run/PractionExceptonRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack4/Run/PractionExceptonRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack4/model/PractionExcepton1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack4/model/PractionExcepton1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -330,7 +325,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757038813094</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Exception">
+      <option name="closed" value="true" />
+      <created>1757042573394</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1757042573394</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,6 +360,16 @@
     <MESSAGE value="Exception" />
     <option name="LAST_COMMIT_MESSAGE" value="Exception" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
