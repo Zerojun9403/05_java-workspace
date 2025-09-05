@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="컬렉션 ( Map - HashMap )">
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/ex2/EmployeeManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack1/ex2/MenuOrderRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/Run/WrapperRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/collection/pack4/service/JavaAPIService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/Collection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/collection/pack3/service/MapService.java" afterDir="false" />
-    </list>
+    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,47 +44,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "junie.onboarding.icon.badge.shown": "true",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "모듈",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true",
-    "애플리케이션.CardRun.executor": "Run",
-    "애플리케이션.DeliveryRun.executor": "Run",
-    "애플리케이션.EmployeeManage.executor": "Run",
-    "애플리케이션.GoogleServiceRun.executor": "Run",
-    "애플리케이션.ListPracticeRun.executor": "Run",
-    "애플리케이션.ListRun.executor": "Run",
-    "애플리케이션.MapRun.executor": "Run",
-    "애플리케이션.MemberRun.executor": "Run",
-    "애플리케이션.MenuOrderRun.executor": "Run",
-    "애플리케이션.PostMain.executor": "Run",
-    "애플리케이션.PracticeRun.executor": "Run",
-    "애플리케이션.SetRun.executor": "Run",
-    "애플리케이션.TaxtRun.executor": "Run",
-    "애플리케이션.VehicleInheritanceRun.executor": "Run",
-    "애플리케이션.WrapperRun.executor": "Run",
-    "애플리케이션.edu.practice.day7.PracticeRun.executor": "Run",
-    "애플리케이션.edu.practice.day8.run.PracticeRun.executor": "Run",
-    "애플리케이션.ex1Run.executor": "Run",
-    "애플리케이션.직원프로그램실행.executor": "Run",
-    "애플리케이션.플랫폼실행하기.executor": "Run"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
+    &quot;애플리케이션.CardRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.DeliveryRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.EmployeeManage.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.GoogleServiceRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ListPracticeRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ListRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MapRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MemberRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.MenuOrderRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PostMain.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.PracticeRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.SetRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.TaxtRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.VehicleInheritanceRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.WrapperRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.edu.practice.day7.PracticeRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.edu.practice.day8.run.PracticeRun.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.ex1Run.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.직원프로그램실행.executor&quot;: &quot;Run&quot;,
+    &quot;애플리케이션.플랫폼실행하기.executor&quot;: &quot;Run&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="PracticeRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="edu.practice.day6.PracticeRun" />
