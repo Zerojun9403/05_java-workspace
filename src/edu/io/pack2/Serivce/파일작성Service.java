@@ -2,6 +2,7 @@ package edu.io.pack2.Serivce;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
@@ -58,4 +59,43 @@ public class 파일작성Service {
             throw new RuntimeException(e);
         }
     }
+
+    // 현재 java_basic 폴더에서 files라는 폴더를 생성
+    // files 라는 폴더 내부에 파일2.txt 만들고,
+    // 파일내용 ; 안녕하세요.
+    //    반갑습니다.
+    //            오늘점심은 어떻게 되나요
+    // String content = "안녕하세요. 반값습니다. 오늘 점심은 어떻게 되나요."
+    // 를 활용해서 파일2.txt 내부에 작성하기
+    // File 와 Files 만 활용
+    // Paths 대신 File.getPath() 이용하거나 File 객체이용
+    // path filename content fPath fFliename
+
+    public void method2() {
+        String folderName = "files";         // 상대 경로 폴더
+        String filename = "파일2.txt";        // 파일명
+        String content = "안녕하세요.\n반갑습니다.\n오늘 점심은 어떻게 되나요."; // 줄바꿈 포함
+
+        // File 객체를 이용한 상대 경로 설정
+        File folder = new File(folderName);
+        File file = new File(folder, filename); // files/파일2.txt
+
+        try {
+            // 폴더 없으면 생성
+            if (!folder.exists()) {
+                if (folder.mkdirs()) {
+                    System.out.println(folder.getPath() + " 폴더 생성 완료.");
+                }
+            }
+
+            // Files.writeString 사용하여 파일 쓰기 (File → Path 변환)
+            Files.writeString(file.toPath(), content, StandardCharsets.UTF_8);
+            System.out.println(filename + " 파일 저장 완료.");
+        } catch (IOException e) {
+            System.out.println("파일 저장 중 오류: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
+
+
 }

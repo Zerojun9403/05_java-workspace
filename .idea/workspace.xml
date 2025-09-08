@@ -5,6 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="IO(출력)">
+      <change afterPath="$PROJECT_DIR$/src/pracitce/exception/ex/ExceptionRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pracitce/exception/ex/ExceptionService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/io/pack2/Run/파일작성Run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack2/Run/파일작성Run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/io/pack2/Serivce/파일작성Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack2/Serivce/파일작성Service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -74,6 +78,7 @@
     "애플리케이션.CustomExceptionRun.executor": "Run",
     "애플리케이션.DeliveryRun.executor": "Run",
     "애플리케이션.ExceptionPracticeRun2.executor": "Run",
+    "애플리케이션.ExceptionRun.executor": "Run",
     "애플리케이션.ExceptionRun1.executor": "Run",
     "애플리케이션.ExceptionRun2.executor": "Run",
     "애플리케이션.ExceptionRun3.executor": "Run",
@@ -133,7 +138,7 @@
       <workItem from="1757053311763" duration="6980000" />
       <workItem from="1757060341676" duration="2174000" />
       <workItem from="1757062539503" duration="288000" />
-      <workItem from="1757291535374" duration="12516000" />
+      <workItem from="1757291535374" duration="17655000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -391,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757303842409</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="IO(출력)">
+      <option name="closed" value="true" />
+      <created>1757304168983</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1757304168983</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
