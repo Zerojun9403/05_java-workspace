@@ -69,7 +69,7 @@ public class ExceptionService {
             // 를 if문 / catch문을 활용해서 출력할 수 있도록 설정
 
 
-                if(dotIndex == -1 || dotIndex == file.length() - 1){
+                if( dotIndex == file.length() - 1){
                     throw new IllegalArgumentException("존재하는 확장자 명칭이 없습니다");
 
             }
