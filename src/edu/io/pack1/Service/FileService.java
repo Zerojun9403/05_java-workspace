@@ -68,7 +68,7 @@ public class FileService {
      * File 클래스로 객체 생성
      * + 폴더가 존재하지 않으면 폴더를 생성하자
      */
-    public void method1(){
+    public void method1() {
         // 제일 앞 "/" : 최상위 폴더 ( == root , 절대 경로의 기준점)
 
         // C 드라이브 폴더 다음에 io_test 폴더 와   gildong 길동 폴더가 존재하는지 확인하고
@@ -93,7 +93,7 @@ public class FileService {
      * File 객체를 이용해서
      * 지정된 위치에 파일 생성하기
      */
-    public void method2(){
+    public void method2() {
 
         File 파일하나 = new File("/io_test/gildong/파일생성확인.txt");
 
@@ -111,7 +111,7 @@ public class FileService {
             // 기능이 진행될 수 있도록 설정
             System.out.println("파일을 생성하는도중 문제가 발생했습니다.");
 
-        } catch (Exception e){
+        } catch (Exception e) {
             System.out.println("개발자가 발견하지 못한 문제들 확인 추후 문제들에 대하여");
             System.out.println("Exception 으로 도달하기 전에 catch 문으로 해당하는 문제에 대해 ");
             System.out.println("개발자가 처리할 수 있도록 문제를 확인하는 공간 ");
@@ -129,17 +129,17 @@ public class FileService {
     // 생성하지 못했다면 ㅇㅇ 파일을 생성하지 못했습니다.
     // if 문 활용해서 출력
 
-    public void method3(){
+    public void method3() {
         String 폴더경로 = "/io_test/practice";
 
         File 폴더만드는객체 = new File(폴더경로);
         File 파일만드는객체 = new File(폴더경로 + "/폴더및파일생성.txt");
         try {
-            if(!폴더만드는객체.exists()){ //개발자가 원하는 해당폴더 경로가 없는게 사실이라면
+            if (!폴더만드는객체.exists()) { //개발자가 원하는 해당폴더 경로가 없는게 사실이라면
                 폴더만드는객체.mkdirs();
                 System.out.println(폴더만드는객체.getName() + " 폴더가 생성되었습니다.");
             }
-            if(파일만드는객체.createNewFile()){
+            if (파일만드는객체.createNewFile()) {
                 System.out.println(파일만드는객체.getName() + " 파일이 생성되었습니다.");
             }
 
@@ -149,7 +149,7 @@ public class FileService {
             e.printStackTrace();
             // System.out.println(e.getMessage());
             // 지정된 경로를 찾을 수 없습니다 -> 폴더가 없어 파일을 생성하지 못함
-        } catch (Exception e){
+        } catch (Exception e) {
             System.out.println("개발자가 확인해봐야할 문제가 발생했습니다.");
             System.out.println("새로운 예외에 대해 개발자는 적절한 처리를 조치하세요.");
         } finally {
@@ -168,13 +168,13 @@ public class FileService {
     // 성공적으로 생성완료 되었다면 ㅇㅇ 파일이 생성되었습니다.
     // 생성하지 못했다면 ㅇㅇ 파일을 생성하지 못했습니다.
 
-    public void method4(){
+    public void method4() {
         String path = "/io_test/practice/files"; // 회사에서 사용하는 경로에 대한 변수이름
         String fileName = "/method4.txt";
         File fPath = new File(path);
         File fFile = new File(path + fileName);
 
-        if(!fPath.exists()) { // /io_test/practice/files 경로가 존재하지 않는다면
+        if (!fPath.exists()) { // /io_test/practice/files 경로가 존재하지 않는다면
             fPath.mkdirs(); // 회사와 개발자가 원하는 경로 폴더들 생성하기 기능 실행
 
         }
@@ -211,15 +211,15 @@ public class FileService {
     현재
     C:\Users\tj\Desktop\java-workspace\java_basic
      */
-    public void method5(){
+    public void method5() {
         // File 객체 생성
 
-        File directory = new File("/Users/tj/Desktop/java-workspace/java_basic");
+        File directory = new File("/Users/영준/OneDrive/Desktop/java-workpace/java_basic");
 
         // 저장된 폴더에 있는 모든 파일 / 폴더를 File[] 형태로 얻어오기
         File[] files = directory.listFiles();
 
-        for(File file : files){
+        for (File file : files) {
 
             // 파일 이름
             String name = file.getName();
@@ -236,13 +236,18 @@ public class FileService {
             // 파일 유형
             String type;
 
-            if(file.isFile()) { // 폴더가 아니라 파일 형태가 맞다면
+            if (file.isFile()) { // 폴더가 아니라 파일 형태가 맞다면
                 type = "파일";
             } else {
                 type = "폴더";
             }
+            // 파일크기(byte)
+            String size = file.length() + "B";
 
-
+            if (file.isDirectory()) {
+                size = ""; // 폴더는 크기를 현재 설정하지 않고 아무런 크키가 없는 상태로 변겅
+            }
+            System.out.printf("%-20s %-20s %-5s %10s \n", name, date, type, size);
         }
 
 
