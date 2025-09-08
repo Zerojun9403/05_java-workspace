@@ -81,14 +81,14 @@ public class FilePracticeService {
         // 2. 디렉토리 내부의 모든 파일 / 디렉토리 목록 가져오기
         File[] 파일들 = logFolder.listFiles();
 
-        System.out.println("["+logFolder.getPath()+"] 내부 목록");
-        for (File item : 파일들){
+        System.out.println("[" + logFolder.getPath() + "] 내부 목록");
+        for (File item : 파일들) {
             String name = item.getName();
 
-            if(item.isFile()){
-                System.out.println(name+"[파일]");
-            } else if(item.isDirectory()){
-                System.out.println(name+"[폴더]");
+            if (item.isFile()) {
+                System.out.println(name + "[파일]");
+            } else if (item.isDirectory()) {
+                System.out.println(name + "[폴더]");
             }
         }
 
@@ -106,40 +106,40 @@ public class FilePracticeService {
     // 4. 파일 삭제 후, 다시 `exists()` 메소드를 호출하여 파일이 정말로 삭제되었는지(false가 반환되는지) 확인하고,
     // 그 결과에 따라 "파일 삭제 완료." 또는 "파일 삭제 실패."를 출력합니다.
     public void method3() {
-            String  pth ="/io_test/tmep";
-            String  fName ="delete_taget.txt";
+        String pth = "/io_test/tmep";
+        String fName = "delete_taget.txt";
 
-            File tempDir= new File(pth);
-            File f = new File(tempDir+"/"+fName);
+        File tempDir = new File(pth);
+        File f = new File(tempDir + "/" + fName);
 
-            if(!tempDir.exists()){
-                tempDir.mkdirs();
-                System.out.println(tempDir+"폴더가 존재하지 않아 생성하였습니다. ");
-            }else {
-                System.out.println(tempDir+"이미 생성된 폴더 입니다. ");
-            }
+        if (!tempDir.exists()) {
+            tempDir.mkdirs();
+            System.out.println(tempDir + "폴더가 존재하지 않아 생성하였습니다. ");
+        } else {
+            System.out.println(tempDir + "이미 생성된 폴더 입니다. ");
+        }
         try {
             // 파일 생성 시도
             f.createNewFile();
 
-            if(f.exists()){
-                System.out.println(fName+"을 생성하였습니다");
-                if(f.delete()){
-                    System.out.println(f.getName()+"파일을 삭제했습니다.");
+            if (f.exists()) {
+                System.out.println(fName + "을 생성하였습니다");
+                if (f.delete()) {
+                    System.out.println(f.getName() + "파일을 삭제했습니다.");
                 } else {
-                    System.out.println(f.getName()+"파일 삭제에 실패했습니다. ");
+                    System.out.println(f.getName() + "파일 삭제에 실패했습니다. ");
                 }
             }
 
             // 파일이 정말로 삭제 되었는지 다시 확인
-            if(!f.exists()){
+            if (!f.exists()) {
                 System.out.println("파일삭제완료");
             } else {
                 System.out.println("파일삭제실패");
             }
         } catch (IOException e) {
             System.out.println("파일 생성에 문제가 발생하였습니다.");
-        } catch (Exception e){
+        } catch (Exception e) {
             System.out.println("개발자가 생각치 못한 문제가 발생하였습니다.");
         }
     }
