@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class ExceptionService {
 
-    public void method1(){
+    public void method1() {
         int a = 10;
         int b = 0;
         try { //문제가 발생할 수 있는 코드 구문 시작과 종료를 작성
-            System.out.println("a/b" + (a/b));
+            System.out.println("a/b" + (a / b));
         } catch (ArithmeticException e) {
             System.out.println("0 으로 나눌수 없습니다.");
             // 이러한 돌발생동을 진행했을떄
@@ -19,13 +19,13 @@ public class ExceptionService {
     }
 
 
-    public void method2(){
-        int [] arr ={1,2,3};
+    public void method2() {
+        int[] arr = {1, 2, 3};
 
         try {
             System.out.println(arr[5]);
         } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("현재 목록은" + arr.length +"개 존재합니다.");
+            System.out.println("현재 목록은" + arr.length + "개 존재합니다.");
             System.out.println("확인하고자 하는 목록의 번호를 다시 입력하세요.");
         } finally {
             System.out.println("프로그램을 종료합니다.");
@@ -33,7 +33,7 @@ public class ExceptionService {
     }
 
 
-    public void method3(){
+    public void method3() {
 
         String file = " 파일이름txt";
         // 파일이름 확인 확장자 확인
@@ -41,7 +41,7 @@ public class ExceptionService {
 
         int dotIndex = file.lastIndexOf("."); //. 이 파일명에서 어디에 있는가 찾기?
         try {
-            String 파일이름 = file.substring(0,dotIndex);
+            String 파일이름 = file.substring(0, dotIndex);
             String 확장자이름 = file.substring(dotIndex);
             System.out.println("파일이름 확인: " + 파일이름);
             System.out.println("확장자명 확인: " + 확장자이름);
@@ -54,7 +54,7 @@ public class ExceptionService {
 
     }
 
-    public void method4(){
+    public void method4() {
         Scanner sc = new Scanner(System.in);
         System.out.print("파일이름: ");
         String file = sc.nextLine();
@@ -62,19 +62,19 @@ public class ExceptionService {
         // 확장자 표기인 . 이 존재하지 않으면 예외 발생
 
         int dotIndex = file.lastIndexOf("."); //. 이 파일명에서 어디에 있는가 찾기?
-        System.out.println("doIndex 위치 : "+dotIndex);
+        System.out.println("doIndex 위치 : " + dotIndex);
         try {
             //dot Index에서 .뒤에 확장자가 명칭이 존재하지 않으면
             // throw new IllegalArgumentException("존재하는 확장자 명칭이 없습니다")
             // 를 if문 / catch문을 활용해서 출력할 수 있도록 설정
 
 
-                if( dotIndex == file.length() - 1){
-                    throw new IllegalArgumentException("존재하는 확장자 명칭이 없습니다");
+            if (dotIndex == file.length() - 1) {
+                throw new IllegalArgumentException("존재하는 확장자 명칭이 없습니다");
 
             }
 
-            String 파일이름 = file.substring(0,dotIndex);
+            String 파일이름 = file.substring(0, dotIndex);
             String 확장자이름 = file.substring(dotIndex);
             System.out.println("파일이름 확인: " + 파일이름);
             System.out.println("확장자명 확인: " + 확장자이름);
@@ -83,7 +83,7 @@ public class ExceptionService {
             // 파일이름txt에서 .이 존재하지 않아 dotIndex가 -1로
             // . index 번호를 찾을수 없음을 표기
             System.out.println("file 이름 내 . 이 존재하지 않습니다. 확정자를 다시 확인해주세요");
-        }catch (IllegalArgumentException e) {
+        } catch (IllegalArgumentException e) {
             System.out.println("존재하는 확장자 명칭이 없습니다");
         } catch (Exception e) {
             System.out.println("개발자가 생각치 못한 오류 기록후 추후 catch문 추가");
@@ -92,6 +92,56 @@ public class ExceptionService {
         }
 
     }
+
+
+    public void method5() {
+        String DBID = "Uset1";
+        String DBPW = "pass1";
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("아이디를 입력하세요 : ");
+        String 사용자입력Id = sc.nextLine();
+        System.out.print("비밀번호를 입력하세요 : ");
+        String 사용자입력Pw = sc.nextLine();
+
+        try {
+            if (!DBID.equals(사용자입력Id)) {
+                //  System.out.println 은 개발자가 문제되는 코드의 로직에 대한 결과를
+                //  확인하거나 log와 같은 txt 파일에 소비자가 로그인 하는 순간부터
+                //  로그아웃 되는 순간까지 시시각각 기록하는 파일
+                // DB 에 저장되어있는 ID와 소비자가 html 에서 작성한 id가 일하는지 확인하고
+                // DB에 저장되어 있는 아이디가 없으면
+                // 예외문제가 발생하는 상황에서 존재하지 않는 아이디 입니다.
+                // 와 같은 경고와 함께 진행하고 있는 기능 정지
+                // -> throw new 또는 exception 의 역할
+                //  System.out.println("사용자 입력 아이닥 일치하지 않습니다.");
+                throw new UserNotFoundException();
+            }
+
+            if (!DBPW.equals(사용자입력Pw)) {
+                throw new InvalidPasswordException("일치하는 회원이 없습니다.");
+            }
+            System.out.println(사용자입력Id + "님이 로그인이 완료되었습니다. ");
+        } catch (UserNotFoundException e) {
+            // 이경우 회사 기획부서에서 전달받은 내용 대로 추가 로직 작성하기
+            // 아이디를 찾을수 없을때 휴면계정으로 전환된것은 아닌지
+            // 와 같은 세부 로직 장성
+
+        } catch (InvalidPasswordException e){
+            // 이경우 회사 기획부서에서 전달받은 내용 대로 추가 로직 작성하기
+            // 비밀번호 5회 잘못입력했을 경우 아이디 비밀번호
+            // 고객센터 전화 후 회사에서 직접적으로 풀어주는 lock  설저한다던지
+            // 휴면계정 처리
+        } catch (Exception e) {
+            System.out.println("개발자가 모르는 문제 발생");
+            // File 클래스를 이용해서 log.log와 같은 log 확장자 파일을 생성후
+            // 문제가 생긴 데이터를 모두 .log 라는 파일안에 작성하여
+            // 개발부서에서 내부적으로 문제를 해결할 수 있도록 진행
+
+        }
+    }
+
 
     // 일주일 내 풀어볼 숙제
     // 스캐너로 ArrayList 이용해서 숫자값 입력받고, 입력받은 숫자값의 총길이나
