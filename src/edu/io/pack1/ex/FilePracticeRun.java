@@ -5,7 +5,8 @@ public class FilePracticeRun {
         FilePracticeService fps = new  FilePracticeService();
 
         //fps.method1();
-        fps.method2();
+        //fps.method2();
+        fps.method3();
     }
 
 

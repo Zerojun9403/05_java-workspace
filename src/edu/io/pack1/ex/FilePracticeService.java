@@ -97,13 +97,50 @@ public class FilePracticeService {
 
     // 문제 3: 파일 생성 확인 및 삭제 처리
     //
-    //`method3()` 또는 `method4()`에서 사용한 절대 경로를 응용하여 다음 작업을 수행하는 메소드를 작성하세요.
+    // `method3()` 또는 `method4()`에서 사용한 절대 경로를 응용하여 다음 작업을 수행하는 메소드를 작성하세요.
     //
-    //1. 절대 경로 `C:/io_test/temp` 폴더 내부에 `delete_target.txt` 라는 이름의 파일을 생성합니다. (단, `C:/io_test/temp` 폴더가 존재하지 않을 수 있으니 파일 생성 전에 폴더가 있는지 확인하고, 없다면 `mkdirs()`로 먼저 생성해야 합니다.)
-    //2. 파일이 성공적으로 생성되었는지 `exists()`로 확인합니다.
-    //3. 파일이 존재한다면, `delete()` 메소드를 호출하여 `delete_target.txt` 파일을 즉시 삭제합니다.
-    //4. 파일 삭제 후, 다시 `exists()` 메소드를 호출하여 파일이 정말로 삭제되었는지(false가 반환되는지) 확인하고, 그 결과에 따라 "파일 삭제 완료." 또는 "파일 삭제 실패."를 출력합니다.
+    // 1. 절대 경로 `C:/io_test/temp` 폴더 내부에 `delete_target.txt` 라는 이름의 파일을 생성합니다.
+    // (단, `C:/io_test/temp` 폴더가 존재하지 않을 수 있으니 파일 생성 전에 폴더가 있는지 확인하고, 없다면 `mkdirs()`로 먼저 생성해야 합니다.)
+    // 2. 파일이 성공적으로 생성되었는지 `exists()`로 확인합니다.
+    // 3. 파일이 존재한다면, `delete()` 메소드를 호출하여 `delete_target.txt` 파일을 즉시 삭제합니다.
+    // 4. 파일 삭제 후, 다시 `exists()` 메소드를 호출하여 파일이 정말로 삭제되었는지(false가 반환되는지) 확인하고,
+    // 그 결과에 따라 "파일 삭제 완료." 또는 "파일 삭제 실패."를 출력합니다.
     public void method3() {
+            String  pth ="/io_test/tmep";
+            String  fName ="delete_taget.txt";
 
+            File tempDir= new File(pth);
+            File f = new File(tempDir+"/"+fName);
+
+            if(!tempDir.exists()){
+                tempDir.mkdirs();
+                System.out.println(tempDir+"폴더가 존재하지 않아 생성하였습니다. ");
+            }else {
+                System.out.println(tempDir+"이미 생성된 폴더 입니다. ");
+            }
+        try {
+            // 파일 생성 시도
+            f.createNewFile();
+
+            if(f.exists()){
+                System.out.println(fName+"을 생성하였습니다");
+                if(f.delete()){
+                    System.out.println(f.getName()+"파일을 삭제했습니다.");
+                } else {
+                    System.out.println(f.getName()+"파일 삭제에 실패했습니다. ");
+                }
+            }
+
+            // 파일이 정말로 삭제 되었는지 다시 확인
+            if(!f.exists()){
+                System.out.println("파일삭제완료");
+            } else {
+                System.out.println("파일삭제실패");
+            }
+        } catch (IOException e) {
+            System.out.println("파일 생성에 문제가 발생하였습니다.");
+        } catch (Exception e){
+            System.out.println("개발자가 생각치 못한 문제가 발생하였습니다.");
+        }
     }
 }
