@@ -5,19 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Exception / IO(출력)">
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex2/FilePracticeRun2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex2/FilePracticeService2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/Run/FileMethodRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/Run/FileWrtieRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/Service/FileMethodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/Service/FileWrtieService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/ex/FileWriteRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/ex/FileWriteService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/ex/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/io/pack3/Run/FileRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex1/FileRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/io/pack3/Service/FileService3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex1/FileService3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/io/pack4/FileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/FileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/io/pack4/Run/파일생성삭제실행.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack4/Run/파일생성삭제실행.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/io/pack4/Service/파일생성삭제서비스.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack4/Service/파일생성삭제서비스.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,6 +104,7 @@
     "애플리케이션.ex1Run.executor": "Run",
     "애플리케이션.맴버실행파일.executor": "Run",
     "애플리케이션.직원프로그램실행.executor": "Run",
+    "애플리케이션.파일생성삭제실행.executor": "Run",
     "애플리케이션.파일작성Run.executor": "Run",
     "애플리케이션.플랫폼실행하기.executor": "Run"
   }
@@ -176,7 +167,7 @@
       <workItem from="1757291535374" duration="27086000" />
       <workItem from="1757321255455" duration="51000" />
       <workItem from="1757376839811" duration="11000" />
-      <workItem from="1757376863600" duration="21818000" />
+      <workItem from="1757376863600" duration="24528000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -506,7 +497,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757386334496</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="Exception / IO(출력)">
+      <option name="closed" value="true" />
+      <created>1757401463916</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1757401463916</updated>
+    </task>
+    <task id="LOCAL-00043" summary="Exception / IO(출력)">
+      <option name="closed" value="true" />
+      <created>1757401476766</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1757401476766</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
