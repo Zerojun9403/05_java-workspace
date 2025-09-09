@@ -1,9 +1,41 @@
 package edu.practice.day12;
 
+import java.util.Scanner;
+
 public class ExerciseRun {
     public static void main(String[] args) {
-        Exercise1 ex = new Exercise1();
-        ex.practice();
-    }
 
+        System.out.println("=== 파일처리 연습 Day 12 ===\n");
+        Scanner sc = new Scanner(System.in);
+        Exercise1 ex1 = new Exercise1();
+
+        System.out.println("--- 문제 1 실행 ---");
+        System.out.println("폴더명칭을 입력하세요");
+        String dirName = sc.nextLine();
+        System.out.println("파일명칭을 입력하세요");
+        String fileName = sc.nextLine();
+        ex1.solution1(dirName,fileName);
+
+        System.out.println("\n--- 문제 2 실행 ---");
+        ex1.solution2(dirName,fileName);
+
+        System.out.println("\n--- 문제 3 실행 ---");
+        ex1.solution3(dirName,fileName);
+
+        System.out.println("\n--- 문제 4 실행 ---");
+        ex1.solution4();
+
+        System.out.println("\n--- 문제 5 실행 ---");
+        System.out.println("상위폴더명칭을 입력하세요");
+        String 폴더1 = sc.nextLine();
+        System.out.println("하위폴더명칭을 입력하세요");
+        String 폴더2 = sc.nextLine();
+        System.out.println("마지막폴더명칭을 입력하세요");
+        String 폴더3 = sc.nextLine();
+        ex1.solution5(폴더1,폴더2,폴더3);
+
+        System.out.println("\n=== 모든 연습 완료! ===");
+    }
 }
+
+
