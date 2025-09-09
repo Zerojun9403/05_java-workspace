@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Exception / IO(출력)">
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack3/Run/FileRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack3/Service/FileService3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/FileEx.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day11/BankAccountManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day11/BankAccountManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day11/PracticeRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day11/PracticeRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day11/StoreInventoryManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day11/StoreInventoryManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +70,7 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "ml.llm.LLMConfigurable",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.언어 디폴트 값",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true",
     "애플리케이션.CardRun.executor": "Run",
@@ -110,6 +110,26 @@
       <recent name="C:\Users\영준\OneDrive\Desktop\java-workpace\java_basic\src\edu\exception" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="FileRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="edu.io.pack3.Run.FileRun" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="edu.io.pack3.Run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="애플리케이션.FileRun" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -137,7 +157,10 @@
       <workItem from="1757053311763" duration="6980000" />
       <workItem from="1757060341676" duration="2174000" />
       <workItem from="1757062539503" duration="288000" />
-      <workItem from="1757291535374" duration="26135000" />
+      <workItem from="1757291535374" duration="27086000" />
+      <workItem from="1757321255455" duration="51000" />
+      <workItem from="1757376839811" duration="11000" />
+      <workItem from="1757376863600" duration="6033000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -443,7 +466,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757315609250</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="Exception / IO(출력)">
+      <option name="closed" value="true" />
+      <created>1757320516057</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1757320516057</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
