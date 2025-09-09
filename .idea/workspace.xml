@@ -5,12 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Exception / IO(출력)">
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex/FilePracticeRun.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex/FilePracticeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex2/FilePracticeRun2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex2/FilePracticeService2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/Run/FileMethodRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/Run/FileWrtieRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/Service/FileMethodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/Service/FileWrtieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/ex/FileWriteRun.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/ex/FileWriteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack4/ex/test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/io/pack3/Run/FileRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack3/Run/FileRun.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/io/pack3/Service/FileService3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack3/Service/FileService3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/io/pack4/FileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack4/FileEx.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/io/pack3/Run/FileRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex1/FileRun.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/io/pack3/Service/FileService3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack3/ex1/FileService3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/io/pack4/FileEx.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/FileEx.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +79,7 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
     "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.언어 디폴트 값",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true",
@@ -83,8 +91,11 @@
     "애플리케이션.ExceptionRun1.executor": "Run",
     "애플리케이션.ExceptionRun2.executor": "Run",
     "애플리케이션.ExceptionRun3.executor": "Run",
+    "애플리케이션.FileMethodRun.executor": "Run",
     "애플리케이션.FilePracticeRun.executor": "Run",
     "애플리케이션.FileRun.executor": "Run",
+    "애플리케이션.FileWriteRun.executor": "Run",
+    "애플리케이션.FileWrtieRun.executor": "Run",
     "애플리케이션.GoogleServiceRun.executor": "Run",
     "애플리케이션.ListPracticeRun.executor": "Run",
     "애플리케이션.ListRun.executor": "Run",
@@ -111,14 +122,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\영준\OneDrive\Desktop\java-workpace\java_basic\src\edu\exception" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.io.pack3.ex1" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="FileRun" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.io.pack3.Run.FileRun" />
+      <option name="MAIN_CLASS_NAME" value="edu.io.pack3.ex1.FileRun" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.io.pack3.Run.*" />
+          <option name="PATTERN" value="edu.io.pack3.ex1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,7 +176,7 @@
       <workItem from="1757291535374" duration="27086000" />
       <workItem from="1757321255455" duration="51000" />
       <workItem from="1757376839811" duration="11000" />
-      <workItem from="1757376863600" duration="9307000" />
+      <workItem from="1757376863600" duration="21818000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -484,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757382989051</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Exception / IO(출력)">
+      <option name="closed" value="true" />
+      <created>1757386334496</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1757386334496</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

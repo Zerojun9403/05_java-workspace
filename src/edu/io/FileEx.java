@@ -1,4 +1,4 @@
-package edu.io.pack4;
+package edu.io;
 
 import java.io.File;
 import java.io.IOException;
@@ -38,12 +38,12 @@ public class FileEx {
      *  오래되어서 문제가 많지만 기존코드와 호환성이 때문에 아직 남아 있음
      * 새 프로젝트에서는 잘 사용하진 않음
      * */
-    public void legacyMethod(){
+    public void legacyMethod() {
         // 레거시 방식 (1995년 부터) - 오래되고 불편함
         File file = new File("폴더경로/파일이름.확장자명");
         boolean exists1 = file.exists();      // 예외처리 안됨, 그냥 true/false 만 진행
         boolean success = file.delete();
-        if(!success){
+        if (!success) {
             // 삭제를 못한게 사실이라면
             // 왜 삭제를 못했는가 ? 권한이 없어서? 다른 프로그램에서 사용중인지 ?
             // 개발자가 코드를 수정함에 있어 어떻게 문제를 수정하고 대안을 설정해야하는지에 대한 정보가 없음
@@ -61,9 +61,9 @@ public class FileEx {
         boolean exists2 = Files.exists(path); // 더 안전하고 상세 기능이 많음
         try {
             Files.delete(path);
-        }catch(NoSuchFileException e){
+        } catch (NoSuchFileException e) {
             System.out.println("파일이 없습니다 : ->  파일이 없을 때 어떻게 진행해야하는지에 대해 개발자가 작성");
-        }catch(AccessDeniedException  e){
+        } catch (AccessDeniedException e) {
             System.out.println("권한이 없습니다 : -> 이럴 경우 개발자가 어떻게 처리해야하는지 진행 ");
         } catch (IOException e) {
             System.out.println("입 출력 연결문제 오류 : -> 개발자가 어떻게 처리해야하는지 진행");
@@ -75,11 +75,11 @@ public class FileEx {
     /*
     팩토리 패턴
      */
-    public void factoryMethod(){
+    public void factoryMethod() {
         // 레거시 버전  Windows 랑 MacBook Linux 별로 / 를 쓰거나 \\ 를 사용해서
         // 윈도우와 맥북 or 리눅스 환경을 구분해야해서 좋은 방식이 아님
         File file1 = new File("폴더경로/파일이름.확장자이름");
-        File file2 = new File("폴더경로","/파일이름.확장자이름");
+        File file2 = new File("폴더경로", "/파일이름.확장자이름");
 
         // 현대 버전  Windows MacBook Linux 을 자바 코드에서 운영체제를 읽고 , 사이 중간을 알아서
         // Windows 랑 MacBook Linux 에 각각 필요한 형태로 / 를 작성
@@ -90,7 +90,7 @@ public class FileEx {
 
         // Paths 팩토리의 경우
         Path path1 = Paths.get("file.txt"); // 파일만 필요할 때 사용
-        Path path2 = Paths.get("C:","폴더이름","file.txt"); // 최상위 폴더 / 중간폴더 / 파일명
+        Path path2 = Paths.get("C:", "폴더이름", "file.txt"); // 최상위 폴더 / 중간폴더 / 파일명
 
         // Java 11 버전부터 사용되는  최신 방법
         // Paths와 Path 구분하지 못한채 사용하는 경우가 많아 Path 라는 명칭으로 통일해서
@@ -98,14 +98,14 @@ public class FileEx {
         Path path3 = Path.of("file.txt");
 
         // 절대경로 (전체적인 경로)
-        Path 결대경로1 = Path.of("C:","Users","user","Desktop","file.txt");
-        Path 결대경로2 = Path.of("/","home","user","Desktop","file.txt");
+        Path 결대경로1 = Path.of("C:", "Users", "user", "Desktop", "file.txt");
+        Path 결대경로2 = Path.of("/", "home", "user", "Desktop", "file.txt");
 
         // 상대경로 (현재 자바를 실행하고 있는 폴더 위치 기준)
         Path 상대경로1 = Path.of("file.txt"); //java_basic 폴더에서 file.txt
-        Path 상대경로2 = Path.of("src","file.txt"); //java_basic 폴더에서 src 폴더 아래 위치한  file.txt
-        Path 상대경로3 = Path.of("..","file.txt"); //java_basic 폴더를 감싸고 있는 java_workspace 폴더를 가리킴
-        Path 상대경로4 = Path.of(".","path1","file.txt"); // 현재 폴더에서  path1 이라는 폴더 안에 존재하는 file.txt
+        Path 상대경로2 = Path.of("src", "file.txt"); //java_basic 폴더에서 src 폴더 아래 위치한  file.txt
+        Path 상대경로3 = Path.of("..", "file.txt"); //java_basic 폴더를 감싸고 있는 java_workspace 폴더를 가리킴
+        Path 상대경로4 = Path.of(".", "path1", "file.txt"); // 현재 폴더에서  path1 이라는 폴더 안에 존재하는 file.txt
 
     }
 
@@ -114,13 +114,13 @@ public class FileEx {
     유틸리티 클래스 및 메서드 기능
     유틸리티 : 편리한 도구들의 모음집
      */
-    public void utilityMethod(){
+    public void utilityMethod() {
         //클래스 기반 유틸리티
         try {
             // File 에는 존재하지 않지만 Files에는 존재하는 기능들
             Files.copy(Path.of("원본"), Path.of("사본"));
             Files.move(Path.of("원본"), Path.of("사본"));
-            Files.delete( Path.of("사본"));
+            Files.delete(Path.of("사본"));
 
         } catch (IOException e) {
             throw new RuntimeException(e);
@@ -128,7 +128,7 @@ public class FileEx {
 
 
         // 메서드 유틸리티
-        double 결과1 = Math.max(10,20);
+        double 결과1 = Math.max(10, 20);
         double 결과2 = Math.sqrt(10);
         double 결과3 = Math.random();
 
@@ -138,5 +138,70 @@ public class FileEx {
         Collections.reverse(list); // 뒤집기 도구
     }
 
+
+
+
+    /*
+
+      Paths.get(); = 1개 이상의 문자열 작성
+                      , 를 이용하여 여러 경로 요소를 조합가능
+      Java11 버전부터는 Path.of() 사용 권장
+      Path.of()  : 1개 이상의 문자열 작성
+                   더 간결한 문법 사용
+      Path.getParent() = c://파일경로1번/파일경로2번/파일경로3번/파일이름.txt
+                         파일이름.txt 전 모~든 경로를 가져오는 기능
+
+      Path.getFileName() = 파일경로 이외에 [파일명칭.확장자이름] 만 가지고 오는 기능
+
+      Path.toAbsolutePath() = 절대 경로 반환
+
+           Path.getNameCount() = 파일위치에 도달하기 까지 몇개의 / 를 거치는가? 경로 갯수 세는것
+           int nameCount = path.getNameCount(); // 파일이름 전 까지 슬래시 개수로 폴더 개수 가져옴
+           Path.getName(1) : index상 파일경로 1번 들어옴
+           Path.getName(0) : index상 C: 들어옴
+
+      Files 클래스의 주요 메서드
+      파일 복사 / 이동 / 삭제
+      Files.copy(Path.of("원본파일경로/원본파일이름.확장자이름"),Path.of("복사해놓을파일경로/복사파일이름.확장자이름")
+      Files.copy(Path.of("원본파일경로/원본파일이름.확장자이름"),Path.of("복사해놓을파일경로/복사파일이름.확장자이름"),StandardCopyOption.REPLACE_EXISTING)
+                                                                                                                       복사할 때 덮어쓰기 형태로복사
+      Files.move(Path.of("원본파일경로/원본파일이름.확장자이름"),Path.of("이동해놓을파일경로/(선택적으로변경)파일이름.확장자이름")
+      Files.move(Path.of("원본파일경로/원본파일이름.확장자이름"),Path.of("이동해놓을파일경로/선택적으로변경)파일이름.확장자이름"),StandardCopyOption.REPLACE_EXISTING)
+                                                                                                                                 파일이동할때 덮어쓰기 형태로 이동
+
+
+
+      Files.delete(path.of("경로/파일이름.확장자"));
+      Files.deleteIfExists(path.of("경로/파일이름.확장자")); -> 파일 삭제하는데 존재하지 않아도 예외 발생하지 않음
+                                                               파일이 존재하는데 다른 곳에서 파일을 사용중일 경우에는 예외발생
+
+
+      Path path = Path.of("c://파일경로1번/파일경로2번/파일경로3번/파일이름.txt");
+
+      Files.createDirectories(path.getParent());
+           createDirectories();-> 파일이름.txt 전에 존재하는 모든 파일 경로가 없으면 생성
+
+
+      Streaming = 네트워크를 통해 데이터를 특히 오디오나 비디오 같은 미디어를 실시간으로 받아오는 기법
+
+      Stream = 데이터의 연속적인 흐름을 나타내는 개념
+               파일, 네트워크. 메모리 등에서 데이터를 순차적으로 읽고 쓸대 사용
+      Streamer = 인터넷을 통해 데이터의 연속적인 흐름을 이용해서 영상/음성 데이터를 실시간으로 흘려 보내는 사람
+
+      Viewer =  스트리머의 방송을 보는 사람들
+
+      시청자가 스트리머의 방송을 보던 중 갑자기 화면이 정지되더니 버퍼링 중입니다.!!!
+
+      버퍼링 중입니다 = 데이터를 가져오는 중입니다.
+
+      Buffer : 데이터를 임시로 지정하는 메모리 영역
+        파일에서는 BufferedReader /  BufferedWriter 로 파일읽기 쓰기를 구현
+
+      */
+
+
+    public void method() {
+
+    }
 
 }

@@ -1,6 +1,4 @@
-package edu.io.pack3.Run;
-
-import edu.io.pack3.Service.FileService3;
+package edu.io.pack3.ex1;
 
 public class FileRun {
     public static void main(String[] args) {
