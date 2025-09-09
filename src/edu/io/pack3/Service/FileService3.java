@@ -2,6 +2,7 @@ package edu.io.pack3.Service;
 
 import java.io.*;
 import java.nio.file.Files;
+import java.nio.file.Path;
 
 public class FileService3 {
 
@@ -30,6 +31,23 @@ public class FileService3 {
                     System.out.println("파일이 다른데에서 사용중이기 때문에 닫을 수 없습니다.");
                 }
             }
+        }
+    }
+
+
+
+    public void 현대방식(){
+        Path path   = Path.of("files","파일2.txt");
+
+        if(!Files.exists(path)){
+            System.out.println("파일 없음");
+            return;
+        }
+        try{
+            String content = Files.readString(path);
+            System.out.println(content);
+        } catch (IOException e) {
+            System.out.println("파일을 읽는 도중 읽으면 오류");
         }
     }
 
