@@ -7,7 +7,6 @@
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Exception / IO(출력)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/practice/day12/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day12/Exercise1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day12/ExerciseRun.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day12/ExerciseRun.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +168,8 @@
       <workItem from="1757321255455" duration="51000" />
       <workItem from="1757376839811" duration="11000" />
       <workItem from="1757376863600" duration="25129000" />
-      <workItem from="1757404740905" duration="3974000" />
+      <workItem from="1757404740905" duration="3988000" />
+      <workItem from="1757463726755" duration="353000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -531,7 +531,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757404896589</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="Exception / IO(출력)">
+      <option name="closed" value="true" />
+      <created>1757409078814</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1757409078814</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
