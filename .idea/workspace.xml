@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Exception / IO(출력)">
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진run.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진service.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/practice/day12/Exercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/practice/day12/Exercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file/store/Book.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/food/dinner.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/점심.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files/파일2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_logs/acces_iog.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_logs/intro.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/my_logs/저녁" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/practice/hello.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +178,8 @@
       <workItem from="1757376839811" duration="11000" />
       <workItem from="1757376863600" duration="25129000" />
       <workItem from="1757404740905" duration="3988000" />
-      <workItem from="1757463726755" duration="353000" />
+      <workItem from="1757463726755" duration="1498000" />
+      <workItem from="1757467079446" duration="1235000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -539,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757409078814</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="Exception / IO(출력)">
+      <option name="closed" value="true" />
+      <created>1757464140956</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1757464140956</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
