@@ -20,10 +20,17 @@ public class 프로필사진run {
         // 인터넷에서 이미지 주소를 복사한 후
         // 원하는 이미지를
         Scanner sc = new Scanner(System.in);
-        System.out.println("저장할 사진의 명칭을 작성하세요");
+        System.out.println("저장할 이미지주소를 작성하세요");
+        String imgUrl3 = sc.nextLine();
+        System.out.println("저장할 폴더명 작성하세요");
+        String folder= sc.nextLine();
+
+        System.out.println("저장할 이미지 명칭을 작성하세요");
         String name = sc.nextLine();
 
         String imgName = name+".png";
-        service.saveImg3(imgName);
+
+        //service.saveImg4(imgName);
+        service.saveImg4(folder,imgName,imgUrl3);
     }
 }

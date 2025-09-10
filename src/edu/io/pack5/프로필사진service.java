@@ -119,4 +119,34 @@ public class 프로필사진service {
         }
 
     }
+
+    // Scanner 를 이용하여 폴더이름, 이미지이름 사용자에게 전달 받고
+    // 폴더 안에 이미지를 복제하여 저장
+    // 확장자는 .png를 사용
+
+    // 외부에서 url 을 통해 이미지를 가져올때 자바에서 접근할 수 없는 주소도 존재함
+    // 사이트 마다 관한에 따라 문제
+
+    //Scanner 로 원하는 이미지 주소를 넣었을떄 권한 문제 없이 정상적으로 작동
+    public  void saveImg4(String folder,String name, String imgUrl3){
+        Path mf = Path.of("profiles",folder,name);
+        try {
+            Files.createDirectories(mf.getParent());
+
+            // 폴더 안에 이미지 까지 바라보는 경로
+            // String imgUrl = "https://www.apple.com/kr/iphone-air/images/overview/welcome/hero__pkj0eg4w6ki2_large.jpg";
+            URL url = new URL(imgUrl3);
+            InputStream inputStream = url.openStream();
+
+            Files.copy(inputStream,mf);
+            inputStream.close(); // 똑같은 이름의 이미지가 존재할때 덮어쓰기가 안됨
+            System.out.println("이미지 저장이 완료 되었습니다.");
+        } catch (IOException e) {
+            System.out.println("이미지 다운르드 실패");
+            //  더 자세한 오류 정보 제공
+            if(e.getMessage().contains("403")){
+                System.out.println("403 오류 : 홈페이지에서 접근을 거부했습니다. 다운로드가 불가합니다.");
+            }
+        }
+    }
 }

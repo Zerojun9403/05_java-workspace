@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="IO(출력)">
+    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="IO(출력) - 프로필 사진 저장하기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진run.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진service.java" afterDir="false" />
@@ -172,15 +172,7 @@
       <workItem from="1757376863600" duration="25129000" />
       <workItem from="1757404740905" duration="3988000" />
       <workItem from="1757463726755" duration="1498000" />
-      <workItem from="1757467079446" duration="7538000" />
-    </task>
-    <task id="LOCAL-00001" summary=" 커밋">
-      <option name="closed" value="true" />
-      <created>1756708476402</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1756708476402</updated>
+      <workItem from="1757467079446" duration="9235000" />
     </task>
     <task id="LOCAL-00002" summary="상속실습 - 증가">
       <option name="closed" value="true" />
@@ -558,7 +550,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757468349843</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="IO(출력) - 프로필 사진 저장하기">
+      <option name="closed" value="true" />
+      <created>1757475765796</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1757475765796</updated>
+    </task>
+    <task id="LOCAL-00050" summary="IO(출력) - 프로필 사진 저장하기">
+      <option name="closed" value="true" />
+      <created>1757475771311</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1757475771311</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +593,8 @@
     <MESSAGE value="Exception" />
     <MESSAGE value="Exception / IO(출력)" />
     <MESSAGE value="IO(출력)" />
-    <option name="LAST_COMMIT_MESSAGE" value="IO(출력)" />
+    <MESSAGE value="IO(출력) - 프로필 사진 저장하기" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO(출력) - 프로필 사진 저장하기" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
   <component name="XDebuggerManager">
