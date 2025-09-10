@@ -4,18 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="Exception / IO(출력)">
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진run.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진service.java" afterDir="false" />
+    <list default="true" id="9b735c5a-9d63-4369-98c1-398cae30492a" name="변경" comment="IO(출력)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/file/store/Book.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/food/dinner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/점심.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/files/파일2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_logs/acces_iog.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_logs/intro.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/my_logs/저녁" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice/hello.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진run.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진run.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/io/pack5/프로필사진service.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,64 +52,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/영준/OneDrive/Desktop/java-workpace/java_basic/src/edu/exception&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.IDE.editor.colors.언어 디폴트 값&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;,
-    &quot;애플리케이션.CardRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.CustomExceptionRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.DeliveryRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ExceptionPracticeRun2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ExceptionRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ExceptionRun1.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ExceptionRun2.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ExceptionRun3.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ExerciseRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.FileMethodRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.FilePracticeRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.FileRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.FileWriteRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.FileWrtieRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.GoogleServiceRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ListPracticeRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ListRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MapRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.MemberRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.NewFileServiceRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.PostMain.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.PracticeRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.PractionExceptonRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.RPGGameWithoutMethods.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.SetRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.TaxtRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.VehicleInheritanceRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.edu.practice.day7.PracticeRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.edu.practice.day8.run.PracticeRun.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.ex1Run.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.맴버실행파일.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.직원프로그램실행.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.파일생성삭제실행.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.파일작성Run.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.플랫폼실행하기.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/영준/OneDrive/Desktop/java-workpace/java_basic/src/edu/exception",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors.언어 디폴트 값",
+    "to.speed.mode.migration.done": "true",
+    "vue.rearranger.settings.migration": "true",
+    "애플리케이션.CardRun.executor": "Run",
+    "애플리케이션.CustomExceptionRun.executor": "Run",
+    "애플리케이션.DeliveryRun.executor": "Run",
+    "애플리케이션.ExceptionPracticeRun2.executor": "Run",
+    "애플리케이션.ExceptionRun.executor": "Run",
+    "애플리케이션.ExceptionRun1.executor": "Run",
+    "애플리케이션.ExceptionRun2.executor": "Run",
+    "애플리케이션.ExceptionRun3.executor": "Run",
+    "애플리케이션.ExerciseRun.executor": "Run",
+    "애플리케이션.FileMethodRun.executor": "Run",
+    "애플리케이션.FilePracticeRun.executor": "Run",
+    "애플리케이션.FileRun.executor": "Run",
+    "애플리케이션.FileWriteRun.executor": "Run",
+    "애플리케이션.FileWrtieRun.executor": "Run",
+    "애플리케이션.GoogleServiceRun.executor": "Run",
+    "애플리케이션.ListPracticeRun.executor": "Run",
+    "애플리케이션.ListRun.executor": "Run",
+    "애플리케이션.MapRun.executor": "Run",
+    "애플리케이션.MemberRun.executor": "Run",
+    "애플리케이션.NewFileServiceRun.executor": "Run",
+    "애플리케이션.PostMain.executor": "Run",
+    "애플리케이션.PracticeRun.executor": "Run",
+    "애플리케이션.PractionExceptonRun.executor": "Run",
+    "애플리케이션.RPGGameWithoutMethods.executor": "Run",
+    "애플리케이션.SetRun.executor": "Run",
+    "애플리케이션.TaxtRun.executor": "Run",
+    "애플리케이션.VehicleInheritanceRun.executor": "Run",
+    "애플리케이션.edu.practice.day7.PracticeRun.executor": "Run",
+    "애플리케이션.edu.practice.day8.run.PracticeRun.executor": "Run",
+    "애플리케이션.ex1Run.executor": "Run",
+    "애플리케이션.맴버실행파일.executor": "Run",
+    "애플리케이션.직원프로그램실행.executor": "Run",
+    "애플리케이션.파일생성삭제실행.executor": "Run",
+    "애플리케이션.파일작성Run.executor": "Run",
+    "애플리케이션.프로필사진run.executor": "Run",
+    "애플리케이션.플랫폼실행하기.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\영준\OneDrive\Desktop\java-workpace\java_basic\src\edu\exception" />
@@ -179,7 +172,7 @@
       <workItem from="1757376863600" duration="25129000" />
       <workItem from="1757404740905" duration="3988000" />
       <workItem from="1757463726755" duration="1498000" />
-      <workItem from="1757467079446" duration="1235000" />
+      <workItem from="1757467079446" duration="7538000" />
     </task>
     <task id="LOCAL-00001" summary=" 커밋">
       <option name="closed" value="true" />
@@ -557,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1757464140956</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="IO(출력)">
+      <option name="closed" value="true" />
+      <created>1757468349843</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1757468349843</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -582,9 +583,9 @@
     <MESSAGE value="컬렉션 (Set - HashSet)" />
     <MESSAGE value="컬렉션 (Set - HashSet&amp;TreeSet, Map)" />
     <MESSAGE value="Exception" />
-    <MESSAGE value="IO(출력)" />
     <MESSAGE value="Exception / IO(출력)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exception / IO(출력)" />
+    <MESSAGE value="IO(출력)" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO(출력)" />
     <option name="NON_MODAL_COMMIT_POSTPONE_SLOW_CHECKS" value="false" />
   </component>
   <component name="XDebuggerManager">
